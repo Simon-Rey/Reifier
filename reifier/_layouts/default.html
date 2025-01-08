@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+
+    <title>{{ page.title }}</title>
+    <meta name="description" content="{% if page.description %}{{ page.description }}{% elsif layout.description %}{{ layout.description }}{% else %}{{ site.description }}{% endif %}">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="icon" type="image/png" sizes="16x16" href="{{ '/assets/favicon/favicon-16x16.png' | relative_url }}">
+    <link rel="icon" type="image/png" sizes="32x32" href="{{ '/assets/favicon/favicon-32x32.png' | relative_url }}">
+    <link rel="icon" type="image/png" sizes="48x48" href="{{ '/assets/favicon/favicon-48x48.png' | relative_url }}">
+    <link rel="apple-touch-icon" sizes="180x180" href="{{ '/assets/favicon/favicon-180x180.png' | relative_url }}">
+    <link rel="icon" type="image/png" sizes="192x192" href="{{ '/assets/favicon/favicon-192x192.png' | relative_url }}">
+
+    <link rel="stylesheet" type="text/css" href="{{ '/assets/css/style.css' | relative_url }}"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <!-- Preload and load the Roboto font asynchronously -->
+    <link rel="preload" href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" as="style" onload="this.onload=null;this.rel='stylesheet'">
+    <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"></noscript>
+
+    <!-- Preload and load the Reddit Mono font asynchronously -->
+    <link rel="preload" href="https://fonts.googleapis.com/css2?family=Reddit+Mono:wght@200..900&display=swap" as="style" onload="this.onload=null;this.rel='stylesheet'">
+    <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Reddit+Mono:wght@200..900&display=swap"></noscript>
+
+    <!-- Preload FontAwesome stylesheet asynchronously -->
+    <link rel="preload" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+    <noscript><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"></noscript>
+
+    {{ page.extra_html_head }}
+</head>
+<body>
+
+{% capture translation_key %}translation_{{ site.active_lang }}{% endcapture %}
+{% assign head_trans = site.data[translation_key].header %}
+
+<header>
+    <div id="top-banner">
+        <div id="top-banner-content">
+            <div id="logo-wrap">
+                <a href="{{ '/' | relative_url }}">
+                    <img src="{{ '/assets/img/reifier_logo.jpg' | relative_url }}">
+                </a>
+                <span>
+                    <a href="{{ '/' | relative_url }}">
+                        {{ head_trans.title }}
+                    </a>
+                </span>
+            </div>
+            <div class="navigation-wrap">
+                <ul class="language-switcher">
+                {% for tongue in site.languages %}
+                <a {% if tongue == site.active_lang %}style="font-weight: bold;"{% endif %} {% static_href %}href="{% if tongue == site.default_lang %}{{site.baseurl}}{{page.url}}{% else %}{{site.baseurl}}/{{ tongue }}{{page.url}}{% endif %}"{% endstatic_href %} >{{ tongue }}</a>{%- if forloop.last == false -%}{{" "}}{{ site.langsep }}{%- endif -%}
+                    {% endfor %}
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div id="menu-wrap">
+        <div class="menu-item"><a href="{{ 'creations' | relative_url  }}">{{ head_trans.creations }}</a></div>
+        <div class="menu-item"><a href="{{ 'your-project' | relative_url  }}">{{ head_trans.on_demand }}</a></div>
+        <div class="menu-item"><a href="{{ 'about' | relative_url  }}">{{ head_trans.about }}</a></div>
+        <div class="menu-item"><a href="{{ 'contact' | relative_url  }}">{{ head_trans.contact }}</a></div>
+    </div>
+</header>
+
+<main {% if page.main_id %}id="{{ page.main_id }}"{% endif %}>
+    {% if page.main_h_title %}
+        <h1>{{ page.main_h_title }}</h1>
+    {% endif %}
+    <div {% if page.content_wrap_id %}id="{{ page.content_wrap_id }}"{% endif %} class="main-content-wrap">
+        {{ content }}
+    </div>
+</main>
+
+<footer>
+
+</footer>
+
+</body>
+</html>
