@@ -41,9 +41,11 @@
     <div id="top-banner">
         <div id="top-banner-content">
             <div id="logo-wrap">
+                <span>
                 <a href="{{ '/' | relative_url }}">
                     <img src="{{ '/assets/img/reifier_logo.jpg' | relative_url }}">
                 </a>
+                    </span>
                 <span>
                     <a href="{{ '/' | relative_url }}">
                         {{ head_trans.title }}
@@ -68,10 +70,11 @@
 </header>
 
 <main {% if page.main_id %}id="{{ page.main_id }}"{% endif %}>
-    {% if page.main_h_title %}
-        <h1>{{ page.main_h_title }}</h1>
-    {% endif %}
     <div {% if page.content_wrap_id %}id="{{ page.content_wrap_id }}"{% endif %} class="main-content-wrap">
+        {% if page.main_h_title %}
+            <h1>{{ page.main_h_title }}</h1>
+        {% endif %}
+
         {{ content }}
     </div>
 </main>

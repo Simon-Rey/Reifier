@@ -2,6 +2,8 @@
 	--color-frame: #8f8f8f;
 	--color-frame-dark: #363636;
 	--color-background: #ffffff;
+	--color-background-dark: #f5f5f5;
+	--color-background-very-dark: #d9d9d9;
 }
 
 /* =======
@@ -9,53 +11,11 @@ Font Sizes
 ======= */
 
 html {
-  font-size: 18px;
+  font-size: 2.5vh;
   font-family: "Reddit Mono", monospace, "Roboto", sans-serif;
   font-optical-sizing: auto;
   font-weight: 400;
   font-style: normal;
-}
-
-@media screen and (max-width: 480px) {
-  html {
-    font-size: 16px;
-  }
-}
-
-@media screen and (min-width: 768px) {
-  html {
-    font-size: 20px;
-  }
-}
-
-@media screen and (min-width: 1024px) {
-  html {
-    font-size: 22px;
-  }
-}
-
-@media screen and (min-width: 1920px) {
-  html {
-    font-size: 24px;
-  }
-}
-
-@media screen and (min-width: 2560px) {
-  html {
-    font-size: 26px;
-  }
-}
-
-@media screen and (min-width: 3000px) {
-  html {
-    font-size: 28px;
-  }
-}
-
-@media screen and (min-width: 3500px) {
-  html {
-    font-size: 30px;
-  }
 }
 
 h1 {
@@ -88,7 +48,7 @@ Main page layout
 ============= */
 
 body {
-	background-color: var(--color-frame-light);
+	background-color: var(--color-background);
 	padding: 0;
     display: flex;
     flex-direction: column;
@@ -108,7 +68,6 @@ header {
 }
 
 #top-banner {
-    height: 7ch;
     width: 100%;
     display: flex;
     flex-direction: row;
@@ -118,7 +77,7 @@ header {
 }
 
 #top-banner-content {
-    width: min(100%, 1300px);
+    width: 60vw;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -133,12 +92,20 @@ header {
     gap: 20px;
 }
 
-#logo-wrap img {
+#logo-wrap > span {
+    display: inline-flex;
+}
+
+#logo-wrap > span > a {
+    display: inline-flex;
+}
+
+#logo-wrap span img {
     height: 5ch;
 }
 
 #menu-wrap {
-    width: min(100%, 1300px);
+    width: 60vw;
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -165,19 +132,35 @@ header {
     border-right: 2px solid var(--color-frame);
 }
 
+@media screen and (max-width: 800px) {
+    #top-banner-content {
+        width: 100%;
+        padding: 0 3vw;
+    }
+
+    #menu-wrap {
+        width: 100%;
+        padding: 0 3vw;
+    }
+}
+
 main {
-	flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: start;
     padding: 0;
+    flex: 1;
 }
 
 .main-content-wrap {
-    padding: 10vh 15vw;
-
+    width: 60vw;
+    padding: 5vh 0;
 }
 
-@media screen and (max-width: 950px) {
+@media screen and (max-width: 1200px) {
     .main-content-wrap {
-        padding: 3vh 0;
+        width: 100%;
+        padding: 3vh 3vw;
     }
 }
 
@@ -192,7 +175,6 @@ h1 {
 }
 
 main > h1 {
-    background-color: var(--color-frame-light);
     padding: 10px 0;
 }
 
@@ -332,4 +314,25 @@ General Stuff
 
 .hidden {
     display: none;
+}
+
+/* =======
+Index Page
+======= */
+
+#reify-definition-wrap {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 3vh;
+    text-align: center;
+}
+
+#reify-definition {
+    background-color: var(--color-background-dark);
+    padding: 2vh;
+}
+
+#reify-definition p {
+    margin: 0;
 }
