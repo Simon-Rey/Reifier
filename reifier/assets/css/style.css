@@ -74,6 +74,8 @@ header {
     justify-content: center;
     align-items: center;
     border-bottom: 3px solid var(--color-frame-dark);
+    box-sizing: border-box;
+    padding: 1vh 0;
 }
 
 #top-banner-content {
@@ -165,8 +167,8 @@ main {
 }
 
 footer {
-    height: 2ch;
-    background-color: var(--color-frame);
+    height: 1ch;
+    background-color: var(--color-frame-dark);
 }
 
 h1 {
