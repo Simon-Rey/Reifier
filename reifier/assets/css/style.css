@@ -32,6 +32,7 @@ h3 {
 
 p {
   font-size: 1rem;
+  text-align: justify;
 }
 
 input {
@@ -73,7 +74,7 @@ header {
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    border-bottom: 3px solid var(--color-frame-dark);
+    border-bottom: 0.3vh solid var(--color-frame-dark);
     box-sizing: border-box;
     padding: 1vh 0;
 }
@@ -131,18 +132,20 @@ header {
 }
 
 .menu-item:not(:last-of-type) {
-    border-right: 2px solid var(--color-frame);
+    border-right: 0.15vw solid var(--color-frame);
 }
 
 @media screen and (max-width: 800px) {
     #top-banner-content {
         width: 100%;
         padding: 0 3vw;
+        box-sizing: border-box;
     }
 
     #menu-wrap {
         width: 100%;
         padding: 0 3vw;
+        box-sizing: border-box;
     }
 }
 
