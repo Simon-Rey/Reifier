@@ -11,7 +11,7 @@ Font Sizes
 ======= */
 
 html {
-  font-size: 2.5vh;
+  font-size: min(2vh, 24px);
   font-family: "Reddit Mono", monospace, "Roboto", sans-serif;
   font-optical-sizing: auto;
   font-weight: 400;
@@ -91,7 +91,7 @@ header {
     flex-direction: row;
     justify-content: left;
     align-items: center;
-    gap: 20px;
+    gap: min(1vw, 20px);
 }
 
 #logo-wrap > span {
