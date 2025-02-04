@@ -179,12 +179,13 @@ main {
 .main-content-wrap {
     width: 60vw;
     padding: 5vh 0;
+    box-sizing: border-box;
 }
 
 @media screen and (max-width: 1200px) {
     .main-content-wrap {
         width: 100%;
-        padding: 3vh 3vw;
+        padding: max(4px, 3vh) max(4px, 3vw);
     }
 }
 
@@ -489,6 +490,8 @@ Creation Gallery
 .creation-gallery-wrap {
     text-align: center;
     border: 2px solid var(--color-frame-dark);
+    max-width: 100%;
+    box-sizing: border-box;
 }
 
 .creation-gallery-thumbnails-wrap {
