@@ -43,7 +43,7 @@
             <div id="logo-wrap">
                 <span>
                 <a href="{{ '/' | relative_url }}">
-                    <img src="{{ '/assets/img/Logo_Reifier_3.webp' | relative_url }}">
+                    <img src="{{ '/assets/logo/Logo_Reifier.webp' | relative_url }}">
                     </span>
                 <span>
                     <a href="{{ '/' | relative_url }}">
@@ -61,10 +61,10 @@
         </div>
     </div>
     <div id="menu-wrap">
-        <div class="menu-item"><a href="{{ 'creations' | relative_url  }}">{{ head_trans.creations }}</a></div>
-        <div class="menu-item"><a href="{{ 'your-project' | relative_url  }}">{{ head_trans.on_demand }}</a></div>
-        <div class="menu-item"><a href="{{ 'about' | relative_url  }}">{{ head_trans.about }}</a></div>
-        <div class="menu-item"><a href="{{ 'contact' | relative_url  }}">{{ head_trans.contact }}</a></div>
+        <div class="menu-item{% if page.url == '/creations' %} active{% endif %}"><a href="{{ 'creations' | relative_url  }}">{{ head_trans.creations }}</a></div>
+        <div class="menu-item{% if page.url == '/your-project' %} active{% endif %}"><a href="{{ 'your-project' | relative_url  }}">{{ head_trans.on_demand }}</a></div>
+        <div class="menu-item{% if page.url == '/about' %} active{% endif %}"><a href="{{ 'about' | relative_url  }}">{{ head_trans.about }}</a></div>
+        <div class="menu-item{% if page.url == '/contact' %} active{% endif %}"><a href="{{ 'contact' | relative_url  }}">{{ head_trans.contact }}</a></div>
     </div>
 </header>
 

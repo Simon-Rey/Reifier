@@ -15,6 +15,7 @@ index:
     
 
 about:
+  title: À Propos de Réifier
   bio:
     header: Biographie
     content: >
@@ -46,3 +47,62 @@ about:
       robustes et réfléchis, ainsi qu'un choix minutieux de matériaux issus de sources responsables.
       En privilégiant des options durables, j'espère créer des meubles qui non seulement résistent à l'épreuve du temps,
       mais respectent également le monde d'où ils proviennent.
+
+contact:
+  title: Prenez contact
+  intro: >
+    J'aimerais entendre parler de vos idées de projet, de vos besoins en mobilier ou de toute question que vous pourriez avoir. 
+    Que vous recherchiez une pièce sur mesure ou que vous souhaitiez simplement discuter, n'hésitez pas à me contacter.
+
+  info:
+    title: Informations de contact
+    email: E-mail
+    phone: Téléphone
+    location: Localisation
+
+  form:
+    title: Formulaire de contact
+    name:
+      label: "Nom :"
+      placeholder: Votre nom...
+    email:
+      label: "E-mail :"
+      placeholder: Votre adresse e-mail...
+    message_placeholder: Votre message...
+    send: Envoyer
+
+your_project:
+  title: Donnez vie à vos idées
+  intro: >
+    Vous avez besoin d'un meuble unique qui correspond exactement à vos attentes ? Nous pouvons travailler ensemble pour le réaliser.
+    Que vous ayez une vision précise ou juste une idée vague, contactez-moi et nous transformerons votre idée en un projet concret !
+  process:
+    title: Le Processus
+    consultation:
+      title: Consultation initiale
+      text: >
+        Chaque projet commence par une conversation : nous discutons de vos besoins, de vos préférences et de toute autre exigence spécifique.
+        Le premier contact se fait généralement par e-mail, après quoi nous pouvons nous rencontrer autour d'un thé.
+    sketch:
+      title: Concept & Croquis
+      text: >
+        La discussion initiale aboutira généralement à quelques idées. Je créerai ensuite des croquis initiaux et des concepts de design.
+        Nous affinerons ensemble ces idées pour que chaque détail soit parfait.
+    material:
+      title: Sélection des matériaux
+      text: >
+        Pendant la conception de votre pièce, nous discuterons également des matériaux. Je vous guiderai à travers différentes options qui
+        équilibrent l'esthétique, la durabilité et la durabilité pour obtenir le meuble parfait.
+    crafting:
+      title: Fabrication
+      text: >
+        La fabrication de votre pièce peut alors commencer. Cela se passe dans mon atelier à Amsterdam Noord. Si nécessaire, je travaillerai
+        avec des collaborateurs externes pour couvrir parfaitement tous les aspects de votre projet.
+    delivery:
+      title: Livraison & Installation
+      text: >
+        Une fois la pièce terminée, nous organiserons la livraison ou le retrait. Si besoin, je peux également vous aider à l’installation.
+  contact:
+    title: Prêt à commencer ?
+    intro: Donnons vie à votre projet !
+    button: Contactez-moi

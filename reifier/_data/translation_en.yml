@@ -14,6 +14,7 @@ index:
 
 
 about:
+  title: About Réifier
   bio:
     header: Biographie
     content: >
@@ -42,5 +43,62 @@ about:
       **Durability as baseline.**  Furniture should be built to last. This durability comes from robust, thoughtful designs
       and a careful selection of materials sourced responsibly. By choosing sustainable options, 
       I hope to craft furniture that not only endures but also respects the world it comes from.
-      
-      
+
+
+contact:
+  title: Get in Touch
+  intro: >
+    I'd love to hear about your project ideas, furniture needs, or any questions you may have. Whether you're looking
+    for a custom piece or just want to chat, feel free to reach out.
+  info:
+    title: Contact Information
+    email: Email
+    phone: Phone
+    location: Location
+
+  form:
+    title: Inquiry Form
+    name:
+      label: "Name:"
+      placeholder: Your name...
+    email:
+      label: "Email:"
+      placeholder: Your email address...
+    message_placeholder: Your message...
+    send: Send
+
+your_project:
+  title: Bring Your Ideas to Life
+  intro: >
+    In need of a unique piece of furniture that fits exactly your expectations? We can work together to make it happen.
+    Whether you have a precise vision or just a vague idea, just reach out and we will reify your idea into a concrete project!
+  process:
+    title: The Process
+    consultation:
+      title: Initial Consultation
+      text: >
+        Each project starts with a conversation: we discuss your needs, your preferences and any other specific requirement.
+        Initial contact is typically done via email after which we can meet up around a tea.
+    sketch:
+      title: Concept & Sketching
+      text: >
+        The initial discussion will typically result in a few ideas. I will then create initial sketches and design concepts.
+        We will then refine them together to make sure every detail is just right.
+    material:
+      title: Material Selection
+      text: >
+        While designing your piece, we will also discuss material. I will guide you through options that balance aesthetics,
+        durability, and sustainability to achieve the perfect piece.
+    crafting:
+      title: Crafting
+      text: >
+        Crafting the piece can then begin. This happens in my workplace in Amsterdam Noord. If needed, I will work with external
+        collaborators to perfectly cover all the aspects of your project
+    delivery:
+      title: Delivery & Installation
+      text: >
+        Once the piece is ready, we will arrange for delivery or pickup. If needed, I can also assist with installation.
+  contact:
+    title: Ready to Start?
+    intro: Let’s bring your project to life!
+    button: Contact Me

@@ -2,7 +2,7 @@ header:
   title: Meubelmaker
   creations: Realisaties
   on_demand: Uw Project
-  about: Over Réifier
+  about: Over
   contact: Contact
 
 index:
@@ -14,6 +14,7 @@ index:
     Welkom bij Réifier, waar wij uw ideeën omzetten in prachtige creaties!
     
 about:
+  title: Over Réifier
   bio:
     header: Biographie
     content: >
@@ -44,3 +45,62 @@ about:
       robuuste, doordachte ontwerpen en een zorgvuldige selectie van materialen uit verantwoorde bronnen.
       Door duurzame opties te kiezen, hoop ik meubels te maken die niet alleen de tand des tijds doorstaan,
       maar ook respect tonen voor de wereld waaruit ze afkomstig zijn.
+
+contact:
+  title: Neem contact op
+  intro: >
+    Ik hoor graag over je projectideeën, meubelbehoeften of eventuele vragen die je hebt. 
+    Of je nu op zoek bent naar een op maat gemaakt meubelstuk of gewoon wilt praten, neem gerust contact op.
+
+  info:
+    title: Contactgegevens
+    email: E-mail
+    phone: Telefoon
+    location: Locatie
+
+  form:
+    title: Contactformulier
+    name:
+      label: "Naam:"
+      placeholder: Jouw naam...
+    email:
+      label: "E-mail:"
+      placeholder: Jouw e-mailadres...
+    message_placeholder: Jouw bericht...
+    send: Verzenden
+
+your_project:
+  title: Breng je ideeën tot leven
+  intro: >
+    Op zoek naar een uniek meubelstuk dat perfect aan jouw verwachtingen voldoet? We kunnen samenwerken om het te realiseren.
+    Of je nu een duidelijk beeld hebt of slechts een vaag idee, neem gerust contact op en we maken van jouw idee een concreet project!
+  process:
+    title: Het Proces
+    consultation:
+      title: Eerste consultatie
+      text: >
+        Elk project begint met een gesprek: we bespreken jouw wensen, voorkeuren en eventuele specifieke eisen.
+        Het eerste contact gebeurt meestal via e-mail, waarna we elkaar kunnen ontmoeten onder het genot van een kop thee.
+    sketch:
+      title: Concept & Schetsen
+      text: >
+        De eerste bespreking leidt meestal tot een paar ideeën. Vervolgens maak ik de eerste schetsen en ontwerpconcepten.
+        Daarna verfijnen we deze samen om ervoor te zorgen dat elk detail precies goed is.
+    material:
+      title: Materiaalkeuze
+      text: >
+        Tijdens het ontwerpen van jouw meubelstuk bespreken we ook het materiaal. Ik begeleid je door verschillende opties die esthetiek,
+        duurzaamheid en functionaliteit in balans brengen om het perfecte stuk te creëren.
+    crafting:
+      title: Vervaardiging
+      text: >
+        Vervolgens kan de vervaardiging van het meubelstuk beginnen. Dit gebeurt in mijn werkplaats in Amsterdam Noord.
+        Indien nodig werk ik samen met externe partners om alle aspecten van jouw project perfect te realiseren.
+    delivery:
+      title: Levering & Installatie
+      text: >
+        Zodra het meubelstuk klaar is, regelen we de levering of ophaling. Indien nodig kan ik ook helpen met de installatie.
+  contact:
+    title: Klaar om te beginnen?
+    intro: Laten we jouw project tot leven brengen!
+    button: Neem contact op

@@ -1,0 +1,73 @@
+---
+layout: default
+permalink: /your-project
+title: Réifier Furniture Maker
+content_wrap_id: content-your-project-wrap
+sitemap:
+  priority: 1
+---
+
+{% capture translation_key %}translation_{{ site.active_lang }}{% endcapture %}
+{% assign project_trans = site.data[translation_key].your_project %}
+
+<h1>{{ project_trans.title }}</h1>
+
+<p>{{ project_trans.intro }}</p>
+
+<h2>{{ project_trans.process.title }}</h2>
+
+<div class="your-project-steps-wrap">
+<div class="your-project-step-content-wrap">
+<h3>1. {{ project_trans.process.consultation.title }}</h3>
+
+<p>{{ project_trans.process.consultation.text }}</p>
+</div>
+<div class="your-project-step-img-wrap">
+<img src="{{ '/assets/photo/process/drawing.webp' | relative_url }}">
+</div>
+
+<div class="your-project-step-content-wrap">
+<h3>2. {{ project_trans.process.sketch.title }}</h3>
+
+<p>{{ project_trans.process.sketch.text }}</p>
+</div>
+<div class="your-project-step-img-wrap">
+<img src="{{ '/assets/photo/process/3D_model.webp' | relative_url }}">
+</div>
+
+<div class="your-project-step-content-wrap">
+<h3>3. {{ project_trans.process.material.title }}</h3>
+
+<p>{{ project_trans.process.material.text }}</p>
+</div>
+<div class="your-project-step-img-wrap">
+<img src="{{ '/assets/photo/process/wood.webp' | relative_url }}">
+</div>
+
+<div class="your-project-step-content-wrap">
+<h3>4. {{ project_trans.process.crafting.title }}</h3>
+
+<p>{{ project_trans.process.crafting.text }}</p>
+</div>
+<div class="your-project-step-img-wrap">
+<img src="{{ '/assets/photo/process/crafting.webp' | relative_url }}">
+</div>
+
+<div class="your-project-step-content-wrap">
+<h3>5. {{ project_trans.process.delivery.title }}</h3>
+
+<p>{{ project_trans.process.delivery.text }}</p>
+</div>
+<div id="your-project-delivery-img-wrap" class="your-project-step-img-wrap">
+<img src="{{ '/assets/photo/process/delivery.webp' | relative_url }}">
+<img src="{{ '/assets/photo/process/installation.webp' | relative_url }}">
+</div>
+</div>
+
+<h2>{{ project_trans.contact.title }}</h2>
+
+<p>{{ project_trans.contact.intro }}</p>
+
+<p class="center-align">
+<a href="{{ 'contact' | relative_url  }}" class="button">{{ project_trans.contact.button }}</a>
+</p>

@@ -1,0 +1,60 @@
+---
+layout: default
+permalink: /contact
+title: Réifier Furniture Maker
+content_wrap_id: content-contact-wrap
+sitemap:
+priority: 1
+---
+
+
+{% capture translation_key %}translation_{{ site.active_lang }}{% endcapture %}
+{% assign contact_trans = site.data[translation_key].contact %}
+
+<h1>{{ contact_trans.title }}</h1>
+
+<p>
+{{ contact_trans.intro }}
+</p>
+
+<div id="contact-wrap">
+
+<div id="contact-info-wrap" markdown="1">
+<h2>{{ contact_trans.info.title }}</h2>
+
+<p><strong>{{ contact_trans.info.email }}:</strong> <a href="mailto:contact@reifier.nl">contact@reifier.nl</a></p>
+
+<p><strong>{{ contact_trans.info.phone }}:</strong> +XX XXXXXXXXXX</p>
+
+<p><strong>{{ contact_trans.info.location }}:</strong> Amsterdam Noord</p>
+
+<p><strong>Instagram:</strong></p>
+
+</div>
+
+<div id="contact-form-wrap">
+
+<h2>{{ contact_trans.form.title }}</h2>
+
+<form action="https://formspree.io/f/yourformid" method="POST" id="contact-form">
+<p>
+<!--    <label for="name">{{ contact_trans.form.name.label }}</label>-->
+    <input type="text" id="name" name="name" placeholder="{{ contact_trans.form.name.placeholder }}" required>
+</p>
+
+<p>
+<!--    <label for="email">{{ contact_trans.form.email.label }}</label>-->
+    <input type="email" id="email" name="email" placeholder="{{ contact_trans.form.email.placeholder }}" required>
+</p>
+
+<p>
+<textarea id="message" name="message" rows="8" placeholder="{{ contact_trans.form.message_placeholder }}" required></textarea>
+</p>
+
+<p class="center-align"><button type="submit" class="button">{{ contact_trans.form.send}}</button><p>
+</form>
+
+</div>
+</div>
+
+

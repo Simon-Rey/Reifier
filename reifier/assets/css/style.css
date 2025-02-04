@@ -4,6 +4,9 @@
 	--color-background: #ffffff;
 	--color-background-dark: #f5f5f5;
 	--color-background-very-dark: #d9d9d9;
+    --color-highlight: #ff723a;
+    --color-highlight-dark: #dc5921;
+    --color-highlight-light: #fc9b77;
 }
 
 /* =======
@@ -11,7 +14,7 @@ Font Sizes
 ======= */
 
 html {
-  font-size: min(2vh, 24px);
+  font-size: min(2vh, 30px);
   font-family: "Reddit Mono", monospace, "Roboto", sans-serif;
   font-optical-sizing: auto;
   font-weight: 400;
@@ -37,6 +40,14 @@ p {
 
 input {
 	font-size: inherit;
+}
+
+textarea {
+    font-size: inherit;
+}
+
+button {
+    font-size: inherit;
 }
 
 a {
@@ -120,19 +131,27 @@ header {
     display: inline-block;
     background: var(--color-frame-dark);
     color: white;
-    padding: 0.5ch 1ch;
     font-size: 0.9rem;
     font-variant: all-small-caps;
 }
 
+.menu-item a {
+    display: inline-block;
+    padding: 0.5ch 1ch;
+}
+
 .menu-item:hover {
     cursor: pointer;
-    background: var(--color-frame);
+    background: var(--color-highlight);
 
 }
 
+.menu-item.active {
+    background: var(--color-highlight-dark);
+}
+
 .menu-item:not(:last-of-type) {
-    border-right: 0.15vw solid var(--color-frame);
+    border-right: 0.15vw solid white;
 }
 
 @media screen and (max-width: 800px) {
@@ -180,15 +199,15 @@ h1 {
 }
 
 main > h1 {
-    padding: 10px 0;
+    padding: 2vh 0;
 }
 
 h2 {
-	margin: 0 0 20px;
+	margin: 0 0 2vh;
 }
 
 p {
-	margin: 0 0 20px;
+	margin: 0 0 2vh;
 }
 
 .center-align {
@@ -258,7 +277,7 @@ Typical layouts
 .grid2-wrapper {
 	display: grid;
     grid-template-columns: repeat(2, 1fr);
-    grid-gap: 10px;
+    grid-gap: 1vh;
 }
 
 .grid2-wrapper > .grid-item:nth-child(2n-1):nth-last-of-type(1) {
@@ -276,7 +295,7 @@ Typical layouts
 }
 
 .lined-table > tbody > tr > td, .lined-table > tbody > tr > th, .lined-table > thead > tr > td, .lined-table > thead > tr > th  {
-	padding: 5px 10px;
+	padding: 0.5vh 1vh;
 	text-align: center;
 }
 
@@ -293,29 +312,23 @@ Typical layouts
 }
 
 .button {
-  background-color: var(--color-frame);
-  color: black;
-  border: none;
-  padding: 5px 20px;
-  border-radius: 25px;
-  cursor: pointer;
-  font-size: 0.8em;
-  text-decoration: none;
+    border: none;
+    background: var(--color-frame-dark);
+    color: white;
+    cursor: pointer;
+    padding: 1vh 3vw;
+    font-size: 0.8rem;
+    text-decoration: none;
 }
+
+.button:hover {
+    background: var(--color-highlight-dark);
+}
+
 
 /* ==========
 General Stuff
 ========== */
-
-.checkmark {
-    color: #5aa82c;
-    font-size: 24px;
-}
-
-.crossmark {
-    color: #af4e4e;
-    font-size: 24px;
-}
 
 .hidden {
     display: none;
@@ -340,4 +353,129 @@ Index Page
 
 #reify-definition p {
     margin: 0;
+}
+
+/* =======
+About Page
+======= */
+
+
+.about-block-wrap {
+    display: grid;
+    gap: 2vw;
+    align-items: center;
+}
+
+.about-block-wrap:not(:first-of-type) {
+    margin-top: 5vh;
+}
+
+.about-block-wrap img {
+    width: 100%;
+}
+
+#work-ethic-wrap {
+    grid-template-columns: 2fr 4fr;
+}
+
+#biography-wrap {
+    grid-template-columns: 4fr 3fr;
+}
+
+@media screen and (max-width: 1200px) {
+
+    #work-ethic-wrap {
+        grid-template-columns: auto;
+    }
+
+    #work-ethic-wrap img {
+        display: none;
+    }
+
+    #biography-wrap {
+        grid-template-columns: auto;
+    }
+
+    .about-block-wrap img {
+    }
+
+}
+
+/* =======
+Contact Page
+======= */
+
+#contact-wrap {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    margin-top: 5vh;
+}
+
+@media screen and (max-width: 1200px) {
+    #contact-wrap {
+        grid-template-columns: auto;
+        justify-items: center;
+    }
+}
+
+#contact-form-wrap {
+    border: min(2px, 0.1vw) solid var(--color-frame-dark);
+    padding: 2vh 2vw;
+    width: min(100%, 70vw);
+    box-sizing: border-box;
+    justify-items: end;
+}
+
+@media screen and (max-width: 800px) {
+    #contact-form-wrap {
+        width: 100%;
+    }
+}
+
+#contact-form-wrap h2 {
+    text-align: center;
+}
+
+#contact-form input {
+    width: 100%;
+    border-radius: 0;
+    border: none;
+    padding: min(1vh, 1vw);
+    background: var(--color-background-dark);
+    box-sizing: border-box;
+}
+
+#contact-form textarea {
+    width: 100%;
+    border-radius: 0;
+    border: none;
+    background: var(--color-background-dark);
+    padding: min(1vh, 1vw);
+    box-sizing: border-box;
+}
+
+/* ==============
+Your Project Page
+============== */
+
+.your-project-steps-wrap {
+    display: grid;
+    grid-template-columns: 4fr 1fr;
+    column-gap: 4vw;
+    row-gap: 0.5vh;
+    align-items: center;
+}
+
+.your-project-step-img-wrap img {
+    width: 100%;
+}
+
+#your-project-delivery-img-wrap {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 0.5vh;
+}
+
+#content-your-project-wrap h2 {
+    margin-top: 5vh;
 }
