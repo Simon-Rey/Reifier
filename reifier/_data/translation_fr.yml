@@ -1,7 +1,15 @@
+page_title:
+  index: Réifier Ébéniste
+  about: Réifier | À Propos
+  contact: Réifier | Contact
+  creations: Réifier | Créations
+  kubus: Réifier | Kubus
+  your_project: Réifier | Votre Projet
+
 header:
   title: Ébéniste
   creations: Créations
-  on_demand: Votre Project
+  on_demand: Votre Projet
   about: À Propos
   contact: Contact
 
@@ -72,24 +80,24 @@ contact:
     send: Envoyer
 
 your_project:
-  title: Donnez vie à vos idées
+  title: Donnez Vie à Vos Idées
   intro: >
     Vous avez besoin d'un meuble unique qui correspond exactement à vos attentes ? Nous pouvons travailler ensemble pour le réaliser.
     Que vous ayez une vision précise ou juste une idée vague, contactez-moi et nous transformerons votre idée en un projet concret !
   process:
     title: Le Processus
     consultation:
-      title: Consultation initiale
+      title: Consultation Initiale
       text: >
         Chaque projet commence par une conversation : nous discutons de vos besoins, de vos préférences et de toute autre exigence spécifique.
         Le premier contact se fait généralement par e-mail, après quoi nous pouvons nous rencontrer autour d'un thé.
     sketch:
-      title: Concept & Croquis
+      title: Concept & Design
       text: >
         La discussion initiale aboutira généralement à quelques idées. Je créerai ensuite des croquis initiaux et des concepts de design.
         Nous affinerons ensemble ces idées pour que chaque détail soit parfait.
     material:
-      title: Sélection des matériaux
+      title: Sélection des Matériaux
       text: >
         Pendant la conception de votre pièce, nous discuterons également des matériaux. Je vous guiderai à travers différentes options qui
         équilibrent l'esthétique, la durabilité et la durabilité pour obtenir le meuble parfait.
@@ -103,6 +111,19 @@ your_project:
       text: >
         Une fois la pièce terminée, nous organiserons la livraison ou le retrait. Si besoin, je peux également vous aider à l’installation.
   contact:
-    title: Prêt à commencer ?
+    title: Prêt à Commencer ?
     intro: Donnons vie à votre projet !
     button: Contactez-moi
+
+kubus:
+  description: >
+    *Kubus* est un cube monolithique, conçu avec précision, qui peut servir de table d'appoint, de table de chevet ou de meuble polyvalent.
+    À première vue, il apparaît comme un bloc solide et homogène, une exploration de la forme géométrique pure.
+    Pourtant, derrière ce design minimaliste se cache un système de rangement ingénieusement intégré.
+
+
+    Le panneau supérieur coulisse pour révéler un compartiment discret, parfait pour ranger, par exemple, un service à thé.
+    Pendant ce temps, la moitié inférieure abrite un tiroir parfaitement intégré, conçu pour préserver l’apparence épurée du cube lorsqu’il est fermé.
+
+
+    Kubus est une recherche d'élégance par la retenue—où la fonctionnalité est subtilement intégrée à la forme elle-même, sans jamais en perturber la pureté.

@@ -1,7 +1,7 @@
 ---
 layout: default
 permalink: /
-title: Réifier Furniture Maker
+title_id: index
 content_wrap_id: content-homepage-wrap
 sitemap:
   priority: 1

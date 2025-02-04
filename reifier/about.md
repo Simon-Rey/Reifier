@@ -1,7 +1,7 @@
 ---
 layout: default
 permalink: /about
-title: Réifier Furniture Maker
+title_id: about
 content_wrap_id: content-about-wrap
 sitemap:
   priority: 1
@@ -16,7 +16,7 @@ sitemap:
 <div id="work-ethic-wrap" class="about-block-wrap">
 
 <div>
-<img src="{{ '/assets/photo/creation/kubus/kubus_3.webp' | relative_url }}">
+<img src="{{ '/assets/photo/creation/kubus/kubus1.webp' | relative_url }}">
 </div>
 
 <div markdown="1">

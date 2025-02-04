@@ -1,0 +1,11 @@
+- name: Kubus
+  url_tag: kubus
+  main_image: assets/photo/creation/kubus/kubus1.webp
+  images:
+    - assets/photo/creation/kubus/kubus1.webp
+    - assets/photo/creation/kubus/kubus2.webp
+    - assets/photo/creation/kubus/kubus3.webp
+    - assets/photo/creation/kubus/kubus4.webp
+    - assets/photo/creation/kubus/kubus5.webp
+    - assets/photo/creation/kubus/kubus6.webp
+    - assets/photo/creation/kubus/kubus7.webp
