@@ -18,13 +18,13 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: Le Petit Bonhomme Simon
-email: reysimon@oraneg.fr
+title: Réifier
+email: contact@reifier.nl
 description: >- # this means to ignore newlines until "baseurl:"
-  Website used to log my outfits and to manage my wardrobe.
+  Welcome to Réifier, where we convert your ideas into beautiful creations!
 
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://petitbonhomme.eu" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://reifier.nl" # the base hostname & protocol for your site, e.g. http://example.com
 
 # Build settings
 plugins:
