@@ -14,7 +14,7 @@ Font Sizes
 ======= */
 
 html {
-  font-size: min(2vh, 30px);
+  font-size: min(1.9vh, 30px);
   font-family: "Reddit Mono", monospace, "Roboto", sans-serif;
   font-optical-sizing: auto;
   font-weight: 400;
@@ -356,6 +356,75 @@ Index Page
     margin: 0;
 }
 
+#index-creation-gallery-wrap {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--color-frame-dark);
+    padding: 1vh 0;
+}
+
+#index-creation-gallery-image-wrap {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#index-creation-gallery-display img {
+    height: 60vh;
+    max-width: 100%;
+}
+
+#index-creation-gallery-display {
+    position: relative;
+    height: 60vh;
+}
+
+#index-creation-gallery-caption {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    box-sizing: border-box;
+    width: 100%;
+}
+
+#index-creation-gallery-caption a {
+    display: inline-block;
+    color: #fff;
+    background: var(--color-frame-dark);
+    opacity: 0.7;
+    text-decoration: none;
+    font-weight: bold;
+    width: 100%;
+    height: auto;
+    text-align: center;
+    padding: 15px;
+    font-size: 1.2rem;
+    box-sizing: border-box;
+}
+
+#index-creation-gallery-caption a:hover {
+    background: var(--color-highlight-dark);
+    opacity: 1;
+}
+
+.index-creation-gallery-arrow {
+    font-size: 2rem;
+    background: var(--color-frame-dark);
+    color: white;
+    border: none;
+    cursor: pointer;
+    padding: 10px 20px;
+}
+
+.index-creation-gallery-arrow:hover {
+    background: var(--color-highlight-dark);
+}
+
 /* =======
 About Page
 ======= */
@@ -557,14 +626,22 @@ Creations Page
 
 .creation-card {
     border: 1px solid var(--color-background-dark);
-    overflow: hidden;
     text-align: center;
     box-shadow: 0 4px 6px var(--color-background-very-dark);
 }
 
+.creation-image-wrap {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+}
+
 .creation-image {
     width: 100%;
-    height: auto;
+    aspect-ratio: 1 / 1;
+    object-fit: cover;
+    object-position: center;
 }
 
 .creation-name {

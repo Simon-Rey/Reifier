@@ -18,3 +18,80 @@ sitemap:
 
 {{ index_trans.welcome }}
 
+{% assign main_images = "" | split: "" %}
+
+{% for creation in site.data.creations %}
+  {% assign image_info = creation.main_image | append: "||" | append: creation.name | append: "||" | append: creation.url_tag %}
+  {% assign main_images = main_images | push: image_info %}
+{% endfor %}
+
+{% assign shuffled_images = main_images | sample: main_images.size %}
+
+<div id="index-creation-gallery-wrap">
+  <div id="index-creation-gallery-image-wrap">
+    <div>
+      <button class="index-creation-gallery-arrow" onclick="prevImage()">&#10094;</button>
+    </div>
+    <div id="index-creation-gallery-display">
+      <a id="creation-gallery-image-link" class="creation-gallery-link" href="">
+        <img id="creation-gallery-active-image" alt="Active Image">
+      </a>
+        
+      <div id="index-creation-gallery-caption">
+        <a class="creation-gallery-link" href="">
+          {{ main_images[0].name }}
+        </a>
+      </div>
+
+    </div>
+    <div>
+      <button class="index-creation-gallery-arrow" onclick="nextImage()">&#10095;</button>
+    </div>
+  </div>
+  
+</div>
+
+<script>
+    let creations = [
+        {% for creation in site.data.creations %}
+            {
+                image: "{{ creation.main_image | relative_url }}",
+                name: "{{ creation.name }}",
+                url_tag: "{{ creation.url_tag }}"
+            }{% unless forloop.last %},{% endunless %}
+        {% endfor %}
+    ];
+
+    // Shuffle the creations
+    creations = creations.sort(() => 0.5 - Math.random());
+
+    let currentIndex = 0;
+
+    function setActiveImage(index) {
+        const activeImage = document.getElementById("creation-gallery-active-image");
+        const creationLinks = document.getElementsByClassName("creation-gallery-link");
+
+        activeImage.src = creations[index].image;
+
+        for (let link of creationLinks) {
+            link.href = "{{ '/creations/' | relative_url }}" + creations[index].url_tag;
+            
+            // Only update text content for the caption link (not the image link)
+            if (link.id !== "creation-gallery-image-link") {
+                link.textContent = creations[index].name;
+            }
+        }
+    }
+
+    function prevImage() {
+        currentIndex = (currentIndex - 1 + creations.length) % creations.length;
+        setActiveImage(currentIndex);
+    }
+
+    function nextImage() {
+        currentIndex = (currentIndex + 1) % creations.length;
+        setActiveImage(currentIndex);
+    }
+
+    setActiveImage(0);
+</script>

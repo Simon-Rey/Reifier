@@ -110,3 +110,20 @@ your_project:
     title: Ready to Start?
     intro: Let’s bring your project to life!
     button: Contact Me
+
+creations:
+  signature:
+    title: Signature Creations
+    description: >
+      Our Signature Creations are exclusive, in-house designs by Réifier, reflecting the unique aesthetic and 
+      craftsmanship that define our work.
+
+      These designs can be custom reproduced to fit your space. If one of them speaks to you, do not hesitate to get in
+      touch—I would love to bring it to life for you!
+
+  bespoke:
+    title: Bespoke Creations
+    description: >
+      Our Bespoke Creations are tailored, one-of-a-kind pieces designed to meet the needs and visions of individual clients.
+      While these pieces are not, per se, available for reproduction, they offer a glimpse into the possibilities of custom
+      design. Let them inspire you—and if you have an idea for your own unique creation, I am here to bring it to life.

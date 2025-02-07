@@ -1,4 +1,5 @@
 - name: Kubus
+  signature: true
   url_tag: kubus
   main_image: assets/photo/creation/kubus/kubus1.webp
   images:
@@ -49,11 +50,15 @@
 
 
 - name: GezelLit
+  signature: true
   url_tag: gezellit
-  main_image: None
+  main_image: assets/photo/creation/gezellit/gezellit1.webp
   images:
-    - None
-    - None
+    - assets/photo/creation/gezellit/gezellit1.webp
+    - assets/photo/creation/gezellit/gezellit2.webp
+    - assets/photo/creation/gezellit/gezellit3.webp
+    - assets/photo/creation/gezellit/gezellit4.webp
+    - assets/photo/creation/gezellit/gezellit5.webp
   description:
     en: >
       Smart, Space-Saving and Comfort! Designed for modern living, **GezelLit** transforms effortlessly from a cozy single
@@ -87,3 +92,28 @@
       Met veel opbergruimte eronder, kun je dekens, boeken of seizoensgebonden spullen netjes opbergen, waardoor je elke
       centimeter van je huis optimaal benut. Functioneel, elegant en gemaakt voor comfort, zorgt **GezelLit** ervoor dat
       kleine ruimtes nooit inboeten aan gezelligheid en samenzijn. Dit is hét gezellige lit!  
+
+
+- name: Beastmaster Shelf
+  signature: false
+  url_tag: beastmaster_shelf
+  main_image: assets/photo/creation/beastmaster_shelf/beastmaster_shelf1.webp
+  images:
+    - assets/photo/creation/beastmaster_shelf/beastmaster_shelf1.webp
+    - assets/photo/creation/beastmaster_shelf/beastmaster_shelf2.webp
+    - assets/photo/creation/beastmaster_shelf/beastmaster_shelf3.webp
+    - assets/photo/creation/beastmaster_shelf/beastmaster_shelf4.webp
+    - assets/photo/creation/beastmaster_shelf/beastmaster_shelf5.webp
+  description:
+    en: >
+      A stylish door shelf that secretly houses a Beastmaster for climbing training. From the living room, it looks
+      like a sleek shelf; in the kitchen, it’s your personal climbing gym. Practical, playful, and perfectly disguised!
+
+    fr: >
+      Une étagère de porte élégante qui dissimule astucieusement un Beastmaster pour l'entraînement à l’escalade.
+      Depuis le salon, elle ressemble à une étagère design ; dans la cuisine, c’est votre salle d’escalade personnelle.
+      Pratique, ludique et parfaitement camouflée !
+
+    nl: >
+      Een stijlvolle deurplank die slim een Beastmaster verbergt voor klimtraining. Vanuit de woonkamer lijkt het een
+      trakke plank; in de keuken is het jouw persoonlijke klimruimte. Praktisch, speels en perfect verstopt!
