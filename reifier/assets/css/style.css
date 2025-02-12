@@ -375,13 +375,13 @@ Index Page
 }
 
 #index-creation-gallery-display img {
-    height: 60vh;
+    max-height: 60vh;
     max-width: 100%;
 }
 
 #index-creation-gallery-display {
     position: relative;
-    height: 60vh;
+    max-height: 60vh;
 }
 
 #index-creation-gallery-caption {
