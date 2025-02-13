@@ -110,6 +110,20 @@ your_project:
       title: Livraison & Installation
       text: >
         Une fois la pièce terminée, nous organiserons la livraison ou le retrait. Si besoin, je peux également vous aider à l’installation.
+  pricetime:
+    title: Tarification et Délais
+    pricing:
+      title: Tarification
+      text: >
+        Chaque projet est unique, et son coût dépend de nombreux facteurs tels que le choix des matériaux, la taille et la complexité.
+        Pour cette raison, il n'est pas possible de fournir des prix fixes sur le site web. Cependant, des estimations peuvent être proposées
+        à plusieurs étapes au fur et à mesure de la discussion du design.
+    timing:
+      title: Délais
+      text: >
+        Je m'efforce toujours de réaliser les projets aussi efficacement que possible tout en maintenant une qualité de fabrication élevée.
+        Le délai exact dépend de ma charge de travail actuelle et de la complexité de la pièce.
+        N'hésitez pas à me contacter pour discuter de votre projet, et je pourrai vous donner une estimation du délai attendu.
   contact:
     title: Prêt à Commencer ?
     intro: Donnons vie à votre projet !

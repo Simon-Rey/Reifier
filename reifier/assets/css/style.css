@@ -55,6 +55,10 @@ a {
     color: inherit;
 }
 
+.paragraph-header {
+    font-weight: bold;
+}
+
 /* =============
 Main page layout
 ============= */

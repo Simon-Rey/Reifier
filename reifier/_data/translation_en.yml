@@ -106,6 +106,20 @@ your_project:
       title: Delivery & Installation
       text: >
         Once the piece is ready, we will arrange for delivery or pickup. If needed, I can also assist with installation.
+  pricetime:
+    title: Pricing and Timing
+    pricing:
+      title: Pricing
+      text: >
+        Each project is unique, and the cost depends on various factors such as material selection, size, and complexity.
+        Because of this, it is not possible to provide fixed prices on the website. However, estimates can be offered
+        at several steps as we discuss the design.
+    timing:
+      title: Timing
+      text: >
+        I always strive to complete projects as efficiently as possible while maintaining high-quality craftsmanship.
+        The exact timeframe depends on my current workload and the complexity of the piece.
+        Feel free to reach out to discuss your project, and I will give you an estimate of the expected timeline.
   contact:
     title: Ready to Start?
     intro: Let’s bring your project to life!
