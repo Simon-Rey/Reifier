@@ -109,6 +109,20 @@ your_project:
       title: Levering & Installatie
       text: >
         Zodra het meubelstuk klaar is, regelen we de levering of ophaling. Indien nodig kan ik ook helpen met de installatie.
+  pricetime:
+    title: Prijs en Tijd
+    pricing:
+      title: Prijs
+      text: >
+        Elk project is uniek en de kosten hangen af van verschillende factoren, zoals de keuze van materialen, de grootte en de complexiteit.
+        Daarom is het niet mogelijk om vaste prijzen op de website te geven. Echter, tijdens het ontwerpproces kunnen er op verschillende momenten
+        schattingen worden gemaakt.
+    timing:
+      title: Tijd
+      text: >
+        Ik streef er altijd naar om projecten zo efficiënt mogelijk af te ronden, terwijl ik een hoge kwaliteit van vakmanschap behoud.
+        De exacte tijdsduur hangt af van mijn huidige werkdruk en de complexiteit van het meubelstuk.
+        Neem gerust contact op om uw project te bespreken, en ik kan u een schatting geven van de verwachte levertijd.
   contact:
     title: Klaar om te beginnen?
     intro: Laten we jouw project tot leven brengen!
