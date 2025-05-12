@@ -5,8 +5,17 @@
 
     {% capture translation_key %}translation_{{ site.active_lang }}{% endcapture %}
     {% assign page_title = site.data[translation_key].page_title[page.title_id] %}
-    <title>{{ page_title }}</title>
-    <meta name="description" content="{% if page.description %}{{ page.description }}{% elsif layout.description %}{{ layout.description }}{% else %}{{ site.description }}{% endif %}">
+    {% if page_title %}
+        <title>{{ page_title }}</title>
+    {% else %}
+        <title>Réifier Furniture Maker</title>
+    {% endif %}
+    {% assign page_description = site.data[translation_key].page_title[page.title_id] %}
+    {% if page_description %}
+        <meta name="description" content="{{ page_description }}">
+    {% else %}
+        <meta name="description" content="Welcome to Réifier, custome furniture maker.">
+    {% endif %}
 
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
@@ -32,6 +41,29 @@
     <link rel="preload" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
     <noscript><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"></noscript>
 
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "LocalBusiness",
+      "name": "Réifier Furniture Maker",
+      "url": "https://reifier.nl",
+      "logo": "https://reifier.nl/assets/logo/Logo_Reifier.webp",
+      "description": "Custom handmade furniture by Réifier.",
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "Amsterdam",
+        "addressCountry": "The Netherlands"
+      }
+    }
+    </script>
+
+    <meta http-equiv="Content-Language" content="{{site.active_lang}}">
+
+    {% if site.default_lang %}<link rel="alternate" hreflang="{{site.default_lang}}" href="{{site.url}}{{page.url}}" />{% endif %}
+    {% for lang in site.languages %}{% if lang == site.default_lang %}{% continue %}{% endif %}
+    <link rel="alternate" hreflang="{{lang}}" href="{{site.url}}/{{lang}}{{page.url}}" />
+    {% endfor %}
+
     {{ page.extra_html_head }}
 </head>
 <body>
@@ -55,11 +87,9 @@
                 </span>
             </div>
             <div class="navigation-wrap">
-                <ul class="language-switcher">
                 {% for tongue in site.languages %}
-                <a {% if tongue == site.active_lang %}style="font-weight: bold;"{% endif %} {% if tongue == site.default_lang %}{% static_href %}href="{{ page.url | relative_url }}"{% endstatic_href %}{% else %}href="{{ '/' | append: tongue | append: page.url | relative_url }}"{% endif %}>{{ tongue }}</a>
-                    {% endfor %}
-                </ul>
+                    <a {% if tongue == site.active_lang %}style="font-weight: bold;"{% endif %} {% if tongue == site.default_lang %}{% static_href %}href="{{ page.url | relative_url }}"{% endstatic_href %}{% else %}href="{{ '/' | append: tongue | append: page.url | relative_url }}"{% endif %}>{{ tongue }}</a>
+                {% endfor %}
             </div>
         </div>
     </div>

@@ -1,10 +1,34 @@
 page_title:
-  index: Réifier Ébéniste
-  about: Réifier | À Propos
-  contact: Réifier | Contact
-  creations: Réifier | Créations
-  kubus: Réifier | Kubus
-  your_project: Réifier | Votre Projet
+  index: Réifier Ébéniste | Meubles sur Mesure Faits Main à Amsterdam
+  about: À Propos de Réifier Ébéniste
+  contact: Contacter Réifier Ébéniste
+  creations: Créations de Réifier Ébéniste
+  kubus: Rangement Kubus de Réifier Ébéniste
+  gezellit: Lit GezelLit de Réifier Ébéniste
+  beastmaster_shelf: Etagère pour Beastmaster de Réifier Ébéniste
+  your_project: Commencez votre Project avec Réifier Ébéniste
+
+page_description:
+  index: >
+    Découvrez Réifier, créateur de meubles sur mesure à Amsterdam. Des pièces uniques faites main qui donnent vie à vos idées.
+  about: >
+    Apprenez-en plus sur l’histoire, la vision et le savoir-faire de Réifier, fabricant de meubles sur mesure à Amsterdam.
+  contact: >
+    Contactez Réifier pour commencer votre projet de meuble sur mesure ou poser vos questions. Je suis à votre écoute !
+  your_project: >
+    Commencez votre projet de meuble sur mesure avec Réifier. Partagez votre vision et laissez-nous créer des pièces 
+    uniques adaptées à vos besoins.
+  creations: >
+    Découvrez les réalisations de Réifier, des créations de meubles sur mesure alliant fonctionnalité et art.
+  kubus: >
+    Kubus est un cube minimaliste avec rangements cachés. Table d’appoint ou de chevet, il allie élégance, fonctionnalité
+    et surprise discrète.
+  gezellit: > 
+    GezelLit est un lit gain de place qui passe de simple à double, avec rangements cachés et design élégant pour petits
+    espaces ou chambres d’amis.
+  beastmaster_shelf: >
+    Une étagère élégante qui cache une planche d'entrainement pour l'escalade. Le Beastmaster allie design raffiné, 
+    gain de place et esprit ludique.
 
 header:
   title: Ébéniste
@@ -15,7 +39,7 @@ header:
   contact: Contact
 
 index:
-
+  title: Réifier Ébéniste
   definition: >
     **réifier** */ʁe.i.fje/* (verbe): Transformer en chose une idée ou un concept.
 
@@ -68,6 +92,11 @@ contact:
     email: E-mail
     phone: Téléphone
     location: Localisation
+  admin:
+    title: Informations Légales
+    iban: IBAN
+    registration: Immatriculation
+    vat_number: Numéro de TVA
 
   form:
     title: Formulaire de contact

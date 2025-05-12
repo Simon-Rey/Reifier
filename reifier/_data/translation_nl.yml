@@ -1,10 +1,32 @@
 page_title:
-  index: Réifier Meubelmaker
-  about: Réifier | Over
-  contact: Réifier | Contact
-  creations: Réifier | Realisaties
-  kubus: Réifier | Kubus
-  your_project: Réifier | Uw Project
+  index: Réifier Meubelmaker | Handgemaakte Maatmeubels in Amsterdam
+  about: Over Réifier Meubelmaker
+  contact: Contacteer Réifier Meubelmaker
+  creations: Realisaties van Réifier Meubelmaker
+  kubus: Kubus Opbergmeubel van Réifier Meubelmaker
+  gezellit: GezelLit Bed van Réifier Meubelmaker
+  beastmaster_shelf: Beastmaster Plank van Réifier Meubelmaker
+  your_project: Begin uw Project met Réifier Meubelmaker
+
+page_description:
+  index: >
+    Ontdek Réifier, meubelmaker op maat in Amsterdam. Handgemaakte meubels die uw ideeën tot leven brengen met vakmanschap.
+  about: >
+    Lees meer over het verhaal, de visie en het vakmanschap van Réifier, specialist in handgemaakte maatmeubels in Amsterdam.
+  contact: >
+    Neem contact op met Réifier voor uw maatwerkproject of vragen. Wij staan klaar om te helpen!
+  your_project: >
+    Begin uw maatwerk meubelproject met Réifier. Deel uw visie en laat ons unieke, handgemaakte meubels op maat maken.
+  creations: >
+    Ontdek de prachtige creaties van Réifier, op maat gemaakte meubels die functionaliteit en kunst combineren.
+  kubus: >
+    Kubus is een minimalistische kubus met verborgen opbergruimte. Een verfijnd bijzetmeubel of nachtkastje, vol 
+    elegantie en verrassingen.
+  gezellit: >
+    GezelLit is een ruimtebesparend bed dat van eenpersoons naar tweepersoons transformeert, met verborgen opbergruimte
+    en stijlvol design.
+  beastmaster_shelf: >
+    Een stijlvolle plank met een geheime functie: de Beastmaster is ook een klimtrainer. Praktisch, speels en slim verborgen.
 
 header:
   title: Meubelmaker
@@ -15,7 +37,7 @@ header:
   contact: Contact
 
 index:
-
+  title: Réifier Meubelmaker
   definition: >
     **reïficatie** */reifika(t)si/* (zelfstandig naamwoord): Het verstoffelijken van een begrip of concept.
 
@@ -66,6 +88,11 @@ contact:
     email: E-mail
     phone: Telefoon
     location: Locatie
+  admin:
+    title: Bedrijfsgegevens
+    iban: IBAN
+    registration: KvK Registratie
+    vat_number: BTW-nummer
 
   form:
     title: Contactformulier

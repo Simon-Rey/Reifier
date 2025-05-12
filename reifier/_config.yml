@@ -28,7 +28,7 @@ url: "https://reifier.nl" # the base hostname & protocol for your site, e.g. htt
 
 # Build settings
 plugins:
-  - jekyll-sitemap
+#  - jekyll-sitemap
   - jekyll-polyglot
 
 
@@ -42,5 +42,5 @@ kramdown:
 # Polyglot Configuration
 languages: ["en", "fr", "nl"]  # List of supported languages
 default_lang: "en"             # Default language
-exclude_from_localization: ["assets"]  # Directories not to localize
+exclude_from_localization: ["assets", "sitemap"]  # Directories not to localize
 parallel_localization: false

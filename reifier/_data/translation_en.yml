@@ -1,10 +1,34 @@
 page_title:
-  index: Réifier Furniture Maker
-  about: Réifier | About
-  contact: Réifier | Contact
-  creations: Réifier | Creations
-  kubus: Réifier | Kubus
-  your_project: Réifier | Your Project
+  index: Réifier Furniture Maker | Handmade Custom Furniture in Amsterdam
+  about: About Réifier Furniture Maker
+  contact: Contact Réifier Furniture Maker
+  creations: Creations from Réifier Furniture Maker
+  kubus: Kubus Storage unit from Réifier Furniture Maker
+  gezellit: GezelLit Bed from Réifier Furniture Maker
+  beastmaster_shelf: Beastmaster Shelf from Réifier Furniture Maker
+  your_project: Start Your Project with Réifier Furniture Maker
+
+page_description:
+  index: >
+    Discover Réifier, a custom furniture maker in Amsterdam. Handmade creations that bring your ideas to life 
+    with craftsmanship and creativity.
+  about: >
+    Learn about Réifier’s story, philosophy, and passion for crafting handmade custom furniture in Amsterdam.
+  contact: >
+    Get in touch with Réifier to start your custom furniture project or ask any questions. I am here to help!
+  your_project: >
+    Start your custom furniture journey with Réifier. Share your vision, and let us create unique, handmade pieces tailored to your needs.
+  creations: >
+    Explore Réifier's stunning creations, showcasing custom furniture designs that blend functionality and artistry.
+  kubus: >
+    Kubus is a minimalist cube with hidden storage. A refined side table or nightstand, crafted for elegance, function, 
+    and quiet surprise.
+  gezellit: > 
+    GezelLit is a smart, space-saving bed that expands from single to double, with hidden storage and sleek design for
+    small or multifunctional spaces.
+  beastmaster_shelf: >
+    A sleek shelf with a hidden twist — the Beastmaster doubles as a climbing trainer. Stylish, space-saving, and
+    secretly playful.
 
 header:
   title: Furniture Maker
@@ -15,6 +39,7 @@ header:
   contact: Contact
 
 index:
+  title: Réifier Furniture Maker
   definition: >
     **reify** */reɪ.ɪ.faɪ/* (verb): to give definite content and form to a concept or idea.
 
@@ -64,6 +89,11 @@ contact:
     email: Email
     phone: Phone
     location: Location
+  admin:
+    title: Company Details
+    iban: IBAN
+    registration: Registration Number
+    vat_number: VAT Number
 
   form:
     title: Inquiry Form

@@ -10,6 +10,8 @@ sitemap:
 {% capture translation_key %}translation_{{ site.active_lang }}{% endcapture %}
 {% assign index_trans = site.data[translation_key].index %}
 
+<h1>{{ index_trans.title }}</h1>
+
 <div id="reify-definition-wrap">
 <div id="reify-definition" markdown="1">
 {{ index_trans.definition }}
@@ -72,6 +74,7 @@ sitemap:
         const creationLinks = document.getElementsByClassName("creation-gallery-link");
 
         activeImage.src = creations[index].image;
+        activeImage.alt = creations[index].name + " - Custom Furniture by Réifier";
 
         for (let link of creationLinks) {
             link.href = "{{ '/creations/' | relative_url }}" + creations[index].url_tag;
