@@ -20,7 +20,7 @@ sitemap:
       <div class="creation-card">
         <a href="{{ '/creations/' | append: creation.url_tag | relative_url }}">
           <div class="creation-image-wrap">
-            <img src="{{ creation.main_image | relative_url }}" alt="{{ creation.name }}" class="creation-image">
+            <img src="{{ creation.main_image | relative_url }}" alt="Image of the {{ creation.name }} creation" class="creation-image">
           </div>
           <h3 class="creation-name">{{ creation.name }}</h3>
         </a>
