@@ -42,5 +42,5 @@ kramdown:
 # Polyglot Configuration
 languages: ["en", "fr", "nl"]  # List of supported languages
 default_lang: "en"             # Default language
-exclude_from_localization: ["assets", "sitemap"]  # Directories not to localize
+exclude_from_localization: ["assets", "sitemap.xml"]  # Directories not to localize
 parallel_localization: false
