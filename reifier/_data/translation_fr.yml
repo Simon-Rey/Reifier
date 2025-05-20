@@ -44,8 +44,22 @@ index:
     **réifier** */ʁe.i.fje/* (verbe): Transformer en chose une idée ou un concept.
 
   welcome: >
-    Bienvenue chez Réifier, là où vos idées sont converties en de magnifiques créations !
-    
+    Bienvenue chez Réifier, où nous transformons vos idées en magnifiques créations !
+
+    Chez Réifier, nous donnons vie à votre vision à travers des meubles artisanaux et sur mesure. Basés à Amsterdam, 
+    nous sommes spécialisés dans le mobilier personnalisé — des armoires et tables de salle à manger uniques aux solutions 
+    d’aménagement complètes. Que vous ayez un plan détaillé ou simplement une idée, nous vous aidons à la concrétiser en 
+    quelque chose de réel, fonctionnel et esthétique.
+
+
+    Chaque pièce est réalisée avec soin, précision et un profond respect du savoir-faire artisanal. Nous collaborons 
+    étroitement avec nos clients pour que chaque détail reflète leur goût, leur espace et leur histoire.
+
+  project_link:
+    intro: Vous cherchez un meuble unique parfaitement adaptée à votre intérieur ?
+    link: Construisons-le ensemble.
+
+  explore_button: Découvrez toutes nos créations
 
 about:
   title: À Propos de Réifier

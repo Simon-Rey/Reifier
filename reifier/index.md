@@ -20,6 +20,11 @@ sitemap:
 
 {{ index_trans.welcome }}
 
+<p>
+    {{ index_trans.project_link.intro }}
+    <a href="{{ 'your-project' | relative_url  }}">{{ index_trans.project_link.link }}</a>
+</p>
+
 {% assign main_images = "" | split: "" %}
 
 {% for creation in site.data.creations %}
@@ -52,6 +57,8 @@ sitemap:
   </div>
   
 </div>
+
+<p class="center-align button"><a class="" href="{{ 'creations' | relative_url  }}">{{ index_trans.explore_button }}</a></p>
 
 <script>
     let creations = [

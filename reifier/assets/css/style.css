@@ -55,6 +55,10 @@ a {
     color: inherit;
 }
 
+p > a {
+    color: var(--color-highlight-dark);
+}
+
 .paragraph-header {
     font-weight: bold;
 }
@@ -328,6 +332,10 @@ Typical layouts
 
 .button:hover {
     background: var(--color-highlight-dark);
+}
+
+.button > a {
+    color: inherit
 }
 
 
