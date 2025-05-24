@@ -34,7 +34,6 @@ sitemap:
 {{ creations_trans.bespoke.description }}
 
 <div class="creations-container">
-<div class="creations-container">
   {% for creation in site.data.creations %}
     {% unless creation.signature %}
       <div class="creation-card">
