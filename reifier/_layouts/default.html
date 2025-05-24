@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="{{site.active_lang}}">
 <head>
     <meta charset="UTF-8">
 
@@ -10,11 +10,11 @@
     {% else %}
         <title>Réifier Furniture Maker</title>
     {% endif %}
-    {% assign page_description = site.data[translation_key].page_title[page.title_id] %}
+    {% assign page_description = site.data[translation_key].page_description[page.title_id] %}
     {% if page_description %}
         <meta name="description" content="{{ page_description }}">
     {% else %}
-        <meta name="description" content="Welcome to Réifier, custome furniture maker.">
+        <meta name="description" content="Custom handmade furniture crafted in Amsterdam by Réifier.">
     {% endif %}
 
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -57,8 +57,19 @@
     }
     </script>
 
-    <meta http-equiv="Content-Language" content="{{site.active_lang}}">
+    <meta property="og:title" content="{{ page_title | default: 'Réifier Furniture Maker' }}">
+    <meta property="og:description" content="{{ page_description | default: 'Custom handmade furniture crafted in Amsterdam by Réifier.' }}">
+    <meta property="og:image" content="{{ site.url }}/assets/logo/Logo_Reifier.webp">
+    <meta property="og:url" content="{{ site.url }}{{ page.url }}">
+    <meta property="og:type" content="website">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="{{ page_title | default: 'Réifier Furniture Maker' }}">
+    <meta name="twitter:description" content="{{ page_description | default: 'Custom handmade furniture crafted in Amsterdam by Réifier.' }}">
+    <meta name="twitter:image" content="{{ site.url }}/assets/logo/Logo_Reifier.webp">
 
+    <link rel="canonical" href="{{ site.url }}{{ page.url }}" />
+
+    <meta http-equiv="Content-Language" content="{{site.active_lang}}">
     {% if site.default_lang %}<link rel="alternate" hreflang="{{site.default_lang}}" href="{{site.url}}{{page.url}}" />{% endif %}
     {% for lang in site.languages %}{% if lang == site.default_lang %}{% continue %}{% endif %}
     <link rel="alternate" hreflang="{{lang}}" href="{{site.url}}/{{lang}}{{page.url}}" />
@@ -77,7 +88,7 @@
             <div id="logo-wrap">
                 <span>
                     <a href="{{ '/' | relative_url }}" aria-label="Link to the main page of the Réifier website">
-                        <img src="{{ '/assets/logo/Logo_Reifier.webp' | relative_url }}" alt="Réifier Logo">
+                        <img src="{{ '/assets/logo/Logo_Reifier.webp' | relative_url }}" alt="Logo of Réifier custom furniture maker in Amsterdam">
                     </a>
                 </span>
                 <span>
