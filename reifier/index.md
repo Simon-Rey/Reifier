@@ -66,7 +66,7 @@ sitemap:
             {
                 image: "{{ creation.main_image | relative_url }}",
                 name: "{{ creation.name }}",
-                url_tag: "{{ creation.url_tag }}"
+                url: "{{ 'creations/' | append: creation.url_tag | localized_url }}"
             }{% unless forloop.last %},{% endunless %}
         {% endfor %}
     ];
@@ -84,7 +84,7 @@ sitemap:
         activeImage.alt = creations[index].name + " - Custom Furniture by Réifier";
 
         for (let link of creationLinks) {
-            link.href = "{{ '/creations/' | relative_url }}" + creations[index].url_tag;
+            link.href = creations[index].url;
             
             // Only update text content for the caption link (not the image link)
             if (link.id !== "creation-gallery-image-link") {
