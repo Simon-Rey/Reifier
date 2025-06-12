@@ -14,7 +14,7 @@ Font Sizes
 ======= */
 
 html {
-  font-size: min(1.9vh, 30px);
+  font-size: max(min(1.9vh, 30px), 15px);
   font-family: "Reddit Mono", monospace, "Roboto", sans-serif;
   font-optical-sizing: auto;
   font-weight: 400;
@@ -111,7 +111,7 @@ header {
     flex-direction: row;
     justify-content: left;
     align-items: center;
-    gap: min(1vw, 20px);
+    gap: max(1vw, 10px);
 }
 
 #logo-wrap > span {
@@ -123,29 +123,47 @@ header {
 }
 
 #logo-wrap span img {
-    height: 5ch;
+    height: 7ch;
+}
+
+#logo-title {
+    font-size:1.3rem;
+}
+
+#language-navigation-wrap {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1ch;
+}
+
+@media screen and (max-width: 350px) {
+    #language-navigation-wrap {
+        flex-direction: column;
+    }
 }
 
 #menu-wrap {
-    width: 60vw;
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
     gap: 0;
+    flex-wrap: wrap;
 }
 
 .menu-item {
     display: inline-block;
     background: var(--color-frame-dark);
     color: white;
-    font-size: 0.9rem;
-    font-variant: all-small-caps;
+    font-size: 0.85rem;
+    text-transform: uppercase;
+    text-align: center
 }
 
 .menu-item a {
     display: inline-block;
-    padding: 0.5ch 1ch;
+    padding: 1ch 1.5ch;
 }
 
 .menu-item:hover {
@@ -501,11 +519,12 @@ Contact Page
 }
 
 #contact-form-wrap {
+    display: flex;
+    flex-direction: column;
     border: min(2px, 0.1vw) solid var(--color-frame-dark);
     padding: 2vh 2vw;
     width: min(100%, 70vw);
     box-sizing: border-box;
-    justify-items: end;
 }
 
 @media screen and (max-width: 800px) {
@@ -602,8 +621,8 @@ Creation Gallery
 }
 
 .creation-gallery-thumbnail, .creation-gallery-thumbnail img {
-    width: min(10vw, 10vh);
-    height: min(10vw, 10vh);
+    width: min(10vw, 10vh, 100%);
+    height: min(10vw, 10vh, 100%);
     object-fit: cover;
     cursor: pointer;
     transition: transform 0.2s;
@@ -631,7 +650,7 @@ Creations Page
 
 .creations-container {
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    grid-template-columns: repeat(auto-fill, minmax(min(80vw, 250px), 1fr));
     gap: 20px;
     padding: 20px;
   }

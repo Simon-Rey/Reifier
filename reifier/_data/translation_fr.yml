@@ -105,7 +105,7 @@ contact:
     title: Informations de contact
     email: E-mail
     phone: Téléphone
-    location: Localisation
+    location: Adresse
   admin:
     title: Informations Légales
     iban: IBAN

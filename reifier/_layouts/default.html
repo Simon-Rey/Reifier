@@ -92,12 +92,12 @@
                     </a>
                 </span>
                 <span>
-                    <a href="{{ '/' | relative_url }}">
+                    <a id="logo-title" href="{{ '/' | relative_url }}">
                         <strong>{{ head_trans.title }}</strong>
                     </a>
                 </span>
             </div>
-            <div class="navigation-wrap">
+            <div id="language-navigation-wrap">
                 {% for tongue in site.languages %}
                     <a {% if tongue == site.active_lang %}style="font-weight: bold;"{% endif %} {% if tongue == site.default_lang %}{% static_href %}href="{{ page.url | relative_url }}"{% endstatic_href %}{% else %}href="{{ '/' | append: tongue | append: page.url | relative_url }}"{% endif %}>{{ tongue }}</a>
                 {% endfor %}
