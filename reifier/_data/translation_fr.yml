@@ -35,6 +35,7 @@ header:
   home: Accueil
   creations: Créations
   on_demand: Votre Projet
+  training: Formation
   about: À Propos
   contact: Contact
 
@@ -189,3 +190,42 @@ creations:
       Nos créations sur-mesure sont des pièces uniques, conçues pour répondre aux besoins et aux visions de chaque client.
       Bien que ces créations ne soient pas destinées à être reproduites, elles offrent un aperçu des possibilités de design personnalisé.
       Laissez-vous inspirer—et si vous avez une idée pour votre propre création unique, je suis là pour lui donner vie.
+
+training:
+  workshops:
+    title: Ateliers de menuiserie
+    description: >
+      Chez Réifier, nous proposons des ateliers de menuiserie de haute qualité, conçus pour les débutants, les amateurs 
+      et les artisans en devenir. Que vous souhaitiez réaliser votre premier projet ou concrétiser une idée personnelle, 
+      nos sessions pratiques vous offrent l'encadrement et l'espace nécessaires pour le faire en toute confiance.
+
+
+      Nos ateliers sont des sessions en petit groupe, centrées sur la réalisation d’un objet précis. Ils sont idéaux 
+      pour celles et ceux qui souhaitent acquérir les bases du travail du bois dans un cadre structuré et bienveillant.
+
+  personalised_sessions:
+    title: Accompagnements personnalisés
+    description: >
+      Si vous avez déjà un projet en tête, nous proposons un accompagnement personnalisé en tête-à-tête. Que vous ayez 
+      besoin d’aide pour la conception, le choix des matériaux, l'utilisation d’outils spécifiques ou la résolution de 
+      problèmes techniques, cette formule s’adapte à vos objectifs.
+
+
+      Vous pouvez choisir parmi :
+
+      - **Séances de conseil** – Planification, choix des matériaux ou assistance technique.
+
+      - **Encadrement pratique** – Réalisez votre projet dans notre atelier avec un accompagnement sur mesure.
+
+      - **Co-construction** – Concevons et réalisons ensemble votre projet de A à Z.
+
+
+      Ce service est proposé sur rendez-vous, aussi bien pour les débutants que pour les personnes plus expérimentées.
+
+  booking:
+    title: Réservation & disponibilité
+    description: >
+      Les ateliers et les séances personnalisées sont actuellement proposés sur demande. Si vous êtes intéressé(e), 
+      merci de nous contacter.
+
+  contact_button: Contact

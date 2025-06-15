@@ -1,0 +1,70 @@
+- name: Bird House
+  url_tag: birdhouse
+  main_image: /assets/photo/workshop/birdhouse/birdhouse_8.jpg
+  images:
+    - /assets/photo/workshop/birdhouse/birdhouse_1.jpg
+    - /assets/photo/workshop/birdhouse/birdhouse_2.jpg
+    - /assets/photo/workshop/birdhouse/birdhouse_3.jpg
+    - /assets/photo/workshop/birdhouse/birdhouse_4.jpg
+    - /assets/photo/workshop/birdhouse/birdhouse_5.jpg
+    - /assets/photo/workshop/birdhouse/birdhouse_6.jpg
+    - /assets/photo/workshop/birdhouse/birdhouse_7.jpg
+    - /assets/photo/workshop/birdhouse/birdhouse_8.jpg
+  intro:
+    en: >
+      A hands-on introduction to woodworking. Build your own birdhouse while learning the fundamentals of working with 
+      wood and essential tools.
+  description:
+    en: >
+      This workshop is designed for beginners and focuses on building a wooden birdhouse suitable for small native birds
+      such as the blue tit, great tit, house sparrow, and Eurasian nuthatch.
+      
+
+      Guided by a detailed plan, you will be introduced to core woodworking techniques including material preparation and 
+      basic joinery. You will learn how to safely and effectively handle tools, mark and cut your pieces, and assemble 
+      them into a functional and attractive birdhouse.
+
+
+      By the end of the session, you will take home a finished birdhouse ready to mount in your garden or balcony.
+
+
+      **Included:** All tools and materials.
+
+
+      **Please note:** Woodworking is a hands-on activity. Closed-toe shoes and fitted clothing are required for safety.
+
+    fr: >
+      Cet atelier est conçu pour les débutants et vous guide dans la réalisation d’un nichoir en bois adapté aux petits oiseaux 
+      locaux tels que la mésange bleue, la mésange charbonnière, le moineau domestique ou la sittelle torchepot.
+
+
+      À partir d’un plan détaillé, vous serez initié aux techniques fondamentales du travail du bois, notamment la préparation 
+      des matériaux et les assemblages simples. Vous apprendrez à manier les outils en toute sécurité, à tracer et découper vos 
+      pièces, puis à les assembler pour créer un nichoir solide et esthétique.
+
+
+      À la fin de la session, vous repartirez avec votre propre nichoir, prêt à être installé dans votre jardin ou sur votre balcon.
+
+
+      **Inclus :** Tous les outils et matériaux.
+
+
+      **À noter :** Le travail du bois est une activité manuelle. Des chaussures fermées et des vêtements ajustés sont obligatoires pour des raisons de sécurité.
+
+    nl: >
+      Deze workshop is bedoeld voor beginners en richt zich op het bouwen van een houten vogelhuisje, geschikt voor kleine 
+      inheemse vogels zoals de pimpelmees, koolmees, huismus en boomklever.
+
+
+      Aan de hand van een gedetailleerd plan maak je kennis met de basisprincipes van houtbewerking, zoals materiaalvoorbereiding 
+      en eenvoudige houtverbindingen. Je leert hoe je veilig en efficiënt gereedschap gebruikt, hoe je nauwkeurig aftekent en zaagt, 
+      en hoe je je vogelhuisje samenstelt tot een stevig en mooi resultaat.
+
+
+      Aan het einde van de sessie neem je een afgewerkt vogelhuisje mee naar huis, klaar om op te hangen in je tuin of op je balkon.
+
+
+      **Inclusief:** Alle gereedschappen en materialen.
+
+
+      **Let op:** Houtbewerking is een fysieke activiteit. Draag gesloten schoenen en aansluitende kleding voor de veiligheid.

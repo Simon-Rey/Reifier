@@ -33,6 +33,7 @@ header:
   creations: Realisaties
   home: Home
   on_demand: Uw Project
+  training: Training
   about: Over
   contact: Contact
 
@@ -187,3 +188,42 @@ creations:
       Onze op maat gemaakte creaties zijn unieke stukken die speciaal zijn ontworpen om aan de behoeften en visies van individuele klanten te voldoen.
       Hoewel deze creaties niet beschikbaar zijn voor reproductie, bieden ze een kijkje in de mogelijkheden van maatwerkdesign.
       Laat je inspireren—en als je een idee hebt voor jouw eigen unieke creatie, sta ik klaar om het tot leven te brengen.
+
+training:
+  workshops:
+    title: Houtbewerking Workshops
+    description: >
+      Bij Réifier bieden we kwalitatieve houtbewerkingworkshops aan voor beginners, hobbyisten en makers in spe. 
+      Of je nu je eerste project wilt bouwen of een persoonlijk idee wilt realiseren, onze praktische sessies 
+      geven je de begeleiding en ruimte om dat met vertrouwen te doen.
+
+
+      Onze workshops zijn kleinschalig en gericht op het maken van een specifiek object. Ideaal voor wie de basis 
+      van houtbewerking wil leren in een gestructureerde en ondersteunende omgeving.
+
+  personalised_sessions:
+    title: Persoonlijke Begeleiding
+    description: >
+      Heb je al een project in gedachten? Wij bieden persoonlijke begeleiding op maat. Of je nu hulp nodig hebt bij 
+      het plannen, het kiezen van materialen, het gebruik van specifieke gereedschappen of het oplossen van technische 
+      uitdagingen, deze formule is afgestemd op jouw doelen.
+
+
+      Je kunt kiezen uit:
+
+      - **Adviesgesprekken** – Ontwerp, materiaalkeuze of technische ondersteuning.
+
+      - **Praktische begeleiding** – Werk aan je project in ons atelier met professionele ondersteuning.
+
+      - **Samen bouwen** – Samen ontwerpen en realiseren we jouw project van begin tot eind.
+
+
+      Deze dienst is beschikbaar op afspraak, geschikt voor zowel beginners als ervaren houtbewerkers.
+
+  booking:
+    title: Reservering & beschikbaarheid
+    description: >
+      Workshops en persoonlijke sessies worden momenteel alleen op aanvraag aangeboden. Neem gerust contact met ons op 
+      als je interesse hebt.
+
+  contact_button: Contact

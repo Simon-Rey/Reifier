@@ -35,6 +35,7 @@ header:
   home: Home
   creations: Creations
   on_demand: Your Project
+  training: Training
   about: About
   contact: Contact
 
@@ -187,3 +188,43 @@ creations:
       Our Bespoke Creations are tailored, one-of-a-kind pieces designed to meet the needs and visions of individual clients.
       While these pieces are not, per se, available for reproduction, they offer a glimpse into the possibilities of custom
       design. Let them inspire you—and if you have an idea for your own unique creation, I am here to bring it to life.
+
+training:
+  workshops:
+    title: Woodworking Workshops
+    description: >
+      At Réifier, we offer high-quality woodworking workshops designed for beginners, hobbyists, and 
+      aspiring makers. Whether you are looking to build your first project or bring a personal idea to life, our 
+      hands-on sessions provide the guidance and space to do so with confidence.
+      
+      
+      Our workshops are small-format, practical sessions focused on building a specific object. These are ideal for 
+      those who want to develop basic woodworking skills in a structured and supportive environment.
+
+  personalised_sessions:
+    title: Personalized Sessions
+    description: >
+      If you already have a project in mind, we offer tailored one-on-one guidance. Whether you need help with
+      planning, selecting materials, using specific tools, or overcoming design challenges, this format is built 
+      around your individual goals.
+
+
+      You can choose from:
+      
+      - **Consultation sessions** – Design planning, material selection, or troubleshooting.
+      
+      - **Hands-on guidance** – Work on your project in the workshop with technical support.
+      
+      - **Collaborative builds** – Develop and execute your project together from start to finish.
+
+
+      This service is available by appointment and is suitable for both beginners and experienced woodworkers 
+      seeking support or collaboration.
+
+  booking:
+    title: Booking & Availability
+    description: >
+      Workshops and personalised sessions are for now offered on demand only. If you are interested, please 
+      reach out.
+
+  contact_button: Contact
