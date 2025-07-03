@@ -1,7 +1,7 @@
 - name: Kubus
   signature: true
   url_tag: kubus
-  main_image: assets/photo/creation/kubus/kubus1.webp
+  main_image: assets/photo/creation/kubus/kubus2.webp
   images:
     - assets/photo/creation/kubus/kubus1.webp
     - assets/photo/creation/kubus/kubus2.webp
@@ -52,7 +52,7 @@
 - name: GezelLit
   signature: true
   url_tag: gezellit
-  main_image: assets/photo/creation/gezellit/gezellit1.webp
+  main_image: assets/photo/creation/gezellit/gezellit3.webp
   images:
     - assets/photo/creation/gezellit/gezellit1.webp
     - assets/photo/creation/gezellit/gezellit2.webp

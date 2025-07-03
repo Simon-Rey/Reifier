@@ -26,20 +26,14 @@
     <link rel="icon" type="image/png" sizes="192x192" href="{{ '/assets/favicon/favicon-192x192.png' | relative_url }}">
 
     <link rel="stylesheet" type="text/css" href="{{ '/assets/css/style.css' | relative_url }}"/>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-
-    <!-- Preload and load the Roboto font asynchronously -->
-    <link rel="preload" href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" as="style" onload="this.onload=null;this.rel='stylesheet'">
-    <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"></noscript>
-
-    <!-- Preload and load the Reddit Mono font asynchronously -->
-    <link rel="preload" href="https://fonts.googleapis.com/css2?family=Reddit+Mono:wght@200..900&display=swap" as="style" onload="this.onload=null;this.rel='stylesheet'">
-    <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Reddit+Mono:wght@200..900&display=swap"></noscript>
 
     <!-- Preload FontAwesome stylesheet asynchronously -->
     <link rel="preload" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
     <noscript><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"></noscript>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Funnel+Display:wght@300..800&display=swap" rel="stylesheet">
 
     <script type="application/ld+json">
     {
@@ -91,11 +85,19 @@
                         <img src="{{ '/assets/logo/Logo_Reifier.webp' | relative_url }}" alt="Logo of Réifier custom furniture maker in Amsterdam">
                     </a>
                 </span>
-                <span>
-                    <a id="logo-title" href="{{ '/' | relative_url }}">
-                        <strong>{{ head_trans.title }}</strong>
-                    </a>
-                </span>
+                <div id="header-title-wrap">
+                    <span>
+                        <a id="logo-title" href="{{ '/' | relative_url }}">
+                            <strong>{{ head_trans.title }}</strong>
+                        </a>
+                    </span>
+                    <span class="logo-contact-details">
+                        <a href="tel:+31615897070">+31 6 1589 7070</a>
+                    </span>
+                    <span class="logo-contact-details link">
+                        <a href="mailto:contact@reifier.nl">contact@reifier.nl</a>
+                    </span>
+                </div>
             </div>
             <div id="language-navigation-wrap">
                 {% for tongue in site.languages %}
@@ -104,15 +106,15 @@
             </div>
         </div>
     </div>
-    <div id="menu-wrap">
-        <div class="menu-item{% if page.url == '/' %} active{% endif %}"><a href="{{ '/' | relative_url  }}">{{ head_trans.home }}</a></div>
-        <div class="menu-item{% if page.url == '/creations' %} active{% endif %}"><a href="{{ 'creations' | relative_url  }}">{{ head_trans.creations }}</a></div>
-        <div class="menu-item{% if page.url == '/your-project' %} active{% endif %}"><a href="{{ 'your-project' | relative_url  }}">{{ head_trans.on_demand }}</a></div>
-        <div class="menu-item{% if page.url == '/training' %} active{% endif %}"><a href="{{ 'training' | relative_url  }}">{{ head_trans.training }}</a></div>
-        <div class="menu-item{% if page.url == '/about' %} active{% endif %}"><a href="{{ 'about' | relative_url  }}">{{ head_trans.about }}</a></div>
-        <div class="menu-item{% if page.url == '/contact' %} active{% endif %}"><a href="{{ 'contact' | relative_url  }}">{{ head_trans.contact }}</a></div>
-    </div>
 </header>
+<nav id="menu-wrap">
+    <div class="menu-item{% if page.url == '/' %} active{% endif %}"><a href="{{ '/' | relative_url  }}">{{ head_trans.home }}</a></div>
+    <div class="menu-item{% if page.url == '/creations' %} active{% endif %}"><a href="{{ 'creations' | relative_url  }}">{{ head_trans.creations }}</a></div>
+    <div class="menu-item{% if page.url == '/your-project' %} active{% endif %}"><a href="{{ 'your-project' | relative_url  }}">{{ head_trans.on_demand }}</a></div>
+    <div class="menu-item{% if page.url == '/training' %} active{% endif %}"><a href="{{ 'training' | relative_url  }}">{{ head_trans.training }}</a></div>
+    <div class="menu-item{% if page.url == '/about' %} active{% endif %}"><a href="{{ 'about' | relative_url  }}">{{ head_trans.about }}</a></div>
+    <div class="menu-item{% if page.url == '/contact' %} active{% endif %}"><a href="{{ 'contact' | relative_url  }}">{{ head_trans.contact }}</a></div>
+</nav>
 
 <main {% if page.main_id %}id="{{ page.main_id }}"{% endif %}>
     <div {% if page.content_wrap_id %}id="{{ page.content_wrap_id }}"{% endif %} class="main-content-wrap">

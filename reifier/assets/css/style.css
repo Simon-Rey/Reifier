@@ -15,10 +15,9 @@ Font Sizes
 
 html {
   font-size: max(min(1.9vh, 30px), 15px);
-  font-family: "Reddit Mono", monospace, "Roboto", sans-serif;
+  font-family: "Funnel Display", sans-serif;
+  font-weight: 300;
   font-optical-sizing: auto;
-  font-weight: 400;
-  font-style: normal;
 }
 
 h1 {
@@ -59,6 +58,10 @@ p > a {
     color: var(--color-highlight-dark);
 }
 
+.link {
+    color: var(--color-highlight-dark);
+}
+
 .paragraph-header {
     font-weight: bold;
 }
@@ -77,18 +80,16 @@ body {
 }
 
 header {
-	background-color: var(--color-background);
-	color: var(--color-frame-dark);
-	padding: 0;
-	box-sizing: border-box;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: calc(7ch + 2vh + 0.3vh);
 }
 
 #top-header {
     width: 100%;
+    background: var(--color-background-dark);
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -96,6 +97,7 @@ header {
     border-bottom: 0.3vh solid var(--color-frame-dark);
     box-sizing: border-box;
     padding: 1vh 0;
+    height: calc(7ch + 2vh + 0.3vh);
 }
 
 #top-header-content {
@@ -104,6 +106,7 @@ header {
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
+    height: 7ch;
 }
 
 #logo-wrap {
@@ -126,8 +129,18 @@ header {
     height: 7ch;
 }
 
+#header-title-wrap {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+
 #logo-title {
-    font-size:1.3rem;
+    font-size: 1.3rem;
+}
+
+.logo-contact-details {
+    font-size: 0.8rem;
 }
 
 #language-navigation-wrap {
@@ -150,6 +163,7 @@ header {
     align-items: center;
     gap: 0;
     flex-wrap: wrap;
+    margin-top: calc(7ch + 2vh + 0.3vh);
 }
 
 .menu-item {
