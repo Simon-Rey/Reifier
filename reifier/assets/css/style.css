@@ -85,6 +85,7 @@ header {
   left: 0;
   width: 100%;
   height: calc(7ch + 2vh + 0.3vh);
+  z-index: 100;
 }
 
 #top-header {
@@ -230,8 +231,35 @@ main {
 }
 
 footer {
-    height: 1ch;
+    display: flex;
     background-color: var(--color-frame-dark);
+    color: white;
+    font-size: 0.8rem;
+    align-items: center;
+    justify-content: center;
+    padding: min(2vh, 5vw);
+}
+
+#footer-wrap {
+    display: flex;
+    align-items: center;
+    gap: 5vw;
+}
+
+#footer-address {
+    display: flex;
+    flex-direction: column;
+    gap: 0.2vh;
+}
+
+#footer-admin-wrap {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 0.2vh 0.2vw;
+}
+
+.footer-admin-header {
+    text-align: right;
 }
 
 h1 {
@@ -407,7 +435,7 @@ Index Page
     align-items: center;
     justify-content: center;
     background-color: var(--color-frame-dark);
-    padding: 1vh 0;
+    padding-top: 1vh;
 }
 
 #index-creation-gallery-image-wrap {

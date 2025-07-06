@@ -39,26 +39,39 @@ header:
   about: About
   contact: Contact
 
+footer:
+  admin:
+    iban: IBAN
+    registration: Registration
+    vat_number: VAT
+  legals: Legal Notice
+
 index:
   title: Réifier, Custom Furniture Maker in Amsterdam
   definition: >
     **reify** */reɪ.ɪ.faɪ/* (verb): to give definite content and form to a concept or idea.
 
-  welcome: >
+  welcome: |
     Welcome to Réifier, where we convert your ideas into beautiful creations!
-    
     
     At Réifier, we bring your vision to life through handcrafted, custom furniture. Based in Amsterdam, we specialize
     in custom furniture — from bespoke cabinets and dining tables to complete interior solutions. Whether you have a 
     detailed plan or just a rough idea, we help shape it into something real, functional, and beautiful.
 
-
     Every piece we create is made with care, precision, and a deep respect for craftsmanship. We work closely 
     with our clients to ensure every detail reflects their taste, space, and story.
+    
+    Looking for a unique piece that fits perfectly in your home?
 
-  project_link:
-    intro: Looking for a unique piece that fits perfectly in your home?
-    link: Let’s build it together.
+  project_link: Let’s build your project together.
+
+  creations_section:
+    title: Explore the creations by Réifier
+
+  training_section:
+    title: Eager to learn about woodworking?
+    text: We organise training workshops for you to learn all the techniques and skills of a wood-worker.
+    button: See all trainings
 
   explore_button: Explore all of our creations
 
@@ -105,11 +118,6 @@ contact:
     email: Email
     phone: Phone
     location: Location
-  admin:
-    title: Company Details
-    iban: IBAN
-    registration: Registration Number
-    vat_number: VAT Number
 
   form:
     title: Inquiry Form
@@ -228,3 +236,48 @@ training:
       reach out.
 
   contact_button: Contact
+
+legals:
+  title: Legal Notice & Intellectual Property
+
+  company_information:
+    title: Company Information
+    name: Business Name
+    address: Registered Address
+    registration_number: Chamber of Commerce (KvK) Number
+    vat_number: VAT Number (BTW)
+    email: Email
+    phone: Phone
+
+  intellectual_property:
+    title: Intellectual Property Rights
+    text: |
+      All content on this website, including but not limited to text, images, designs, logos, photographs, videos,
+      drawings, graphics, and product descriptions, is the exclusive property of Reifier, unless otherwise stated.
+      
+      This content is protected under Dutch and international copyright and intellectual property laws.
+
+  restriction_on_use:
+    title: Restrictions on Use
+    text: |
+      Copy, reproduction, distribution, or modification of any content from this website without prior written consent is prohibited.
+      
+      Commercial use of our designs, photographs, or product concepts is strictly forbidden.
+      
+      You may not remove or alter any copyright, trademark, or proprietary notices from the content.
+      
+      Unauthorized use may result in legal action under applicable laws.
+
+  external_links:
+    title: External Links
+    text: This website may contain links to third-party websites. [Your Company Name] is not responsible for the content
+      or practices of those external websites and provides these links for informational purposes only.
+
+  liability:
+    title: Liability Disclaimer
+    text: While we strive to ensure the information on this website is accurate and current, we make no guarantees 
+      regarding its completeness or reliability. We reserve the right to modify content at any time without prior notice.
+
+  contact:
+    title: Contact
+    text: For permission requests or legal inquiries, please contact us at

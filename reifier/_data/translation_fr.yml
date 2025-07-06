@@ -39,12 +39,19 @@ header:
   about: À Propos
   contact: Contact
 
+footer:
+  admin:
+    iban: IBAN
+    registration: Inscription
+    vat_number: TVA
+  legals: Mentions Légales
+
 index:
   title: Réifier, Ébéniste à Amsterdam
   definition: >
     **réifier** */ʁe.i.fje/* (verbe): Transformer en chose une idée ou un concept.
 
-  welcome: >
+  welcome: |
     Bienvenue chez Réifier, où nous transformons vos idées en magnifiques créations !
 
     Chez Réifier, nous donnons vie à votre vision à travers des meubles artisanaux et sur mesure. Basés à Amsterdam, 
@@ -52,13 +59,20 @@ index:
     d’aménagement complètes. Que vous ayez un plan détaillé ou simplement une idée, nous vous aidons à la concrétiser en 
     quelque chose de réel, fonctionnel et esthétique.
 
-
     Chaque pièce est réalisée avec soin, précision et un profond respect du savoir-faire artisanal. Nous collaborons 
     étroitement avec nos clients pour que chaque détail reflète leur goût, leur espace et leur histoire.
+    
+    Vous cherchez un meuble unique parfaitement adaptée à votre intérieur ?
 
-  project_link:
-    intro: Vous cherchez un meuble unique parfaitement adaptée à votre intérieur ?
-    link: Construisons-le ensemble.
+  project_link: Réalisons ensemble votre project.
+
+  creations_section:
+    title: Découvrez les créations de Réifier
+
+  training_section:
+    title: Vous voulez découvrir le travail du bois ou approfondir vos connaissances?
+    text: Nous proposons des formations pour le travail du bois.
+    button: Explorez les formations
 
   explore_button: Découvrez toutes nos créations
 
@@ -107,11 +121,6 @@ contact:
     email: E-mail
     phone: Téléphone
     location: Adresse
-  admin:
-    title: Informations Légales
-    iban: IBAN
-    registration: Immatriculation
-    vat_number: Numéro de TVA
 
   form:
     title: Formulaire de contact

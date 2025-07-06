@@ -37,29 +37,42 @@ header:
   about: Over
   contact: Contact
 
+footer:
+  admin:
+    iban: IBAN
+    registration: KvK
+    vat_number: BTW
+  legals: Juridische Informatie
+
 index:
   title: Réifier, Handgemaakte Maatmeubels in Amsterdam
   definition: >
     **reïficatie** */reifika(t)si/* (zelfstandig naamwoord): Het verstoffelijken van een begrip of concept.
 
-  welcome: >
+  welcome: |
     Welkom bij Réifier, waar we jouw ideeën omzetten in prachtige creaties!
-
 
     Bij Réifier brengen we jouw visie tot leven met handgemaakte meubels op maat. Vanuit Amsterdam specialiseren 
     we ons in maatwerk — van unieke kasten en eettafels tot volledige interieurinrichtingen. Of je nu een uitgewerkt 
     plan hebt of slechts een vaag idee, wij helpen je iets echts, functioneels en moois te maken.
 
-
     Elk stuk wordt met zorg, precisie en diep respect voor vakmanschap gemaakt. We werken nauw samen met onze klanten 
     om ervoor te zorgen dat elk detail hun smaak, ruimte en verhaal weerspiegelt.
+    
+    Op zoek naar een uniek meubelstuk dat perfect in jouw huis past?
 
-  project_link:
-    intro: Op zoek naar een uniek meubelstuk dat perfect in jouw huis past?
-    link: Laten we het samen maken.
+  project_link: Laten we jouw project samen maken.
+
+
+  creations_section:
+    title: Ontdek de realisaties van Réifier
+
+  training_section:
+    title: Wil u graag over houtbewerking leren?
+    text: We geven houtbewerking workshops.
+    button: Bekijk alle workshops.
 
   explore_button: Bekijk al onze creaties
-
 
 about:
   title: Over Réifier
@@ -105,11 +118,6 @@ contact:
     email: E-mail
     phone: Telefoon
     location: Locatie
-  admin:
-    title: Bedrijfsgegevens
-    iban: IBAN
-    registration: KvK Registratie
-    vat_number: BTW-nummer
 
   form:
     title: Contactformulier

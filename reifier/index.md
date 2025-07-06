@@ -20,10 +20,9 @@ sitemap:
 
 {{ index_trans.welcome }}
 
-<p>
-    {{ index_trans.project_link.intro }}
-    <a href="{{ 'your-project' | relative_url  }}">{{ index_trans.project_link.link }}</a>
-</p>
+<p class="center-align"><a class="button" href="{{ 'your-project' | relative_url  }}">{{ index_trans.project_link }}</a></p>
+
+<h2>{{ index_trans.creations_section.title }}</h2>
 
 {% assign main_images = "" | split: "" %}
 
@@ -58,7 +57,13 @@ sitemap:
   
 </div>
 
-<p class="center-align button"><a class="" href="{{ 'creations' | relative_url  }}">{{ index_trans.explore_button }}</a></p>
+<p class="center-align" style="margin-top: 20px;"><a class="button" href="{{ 'creations' | relative_url  }}">{{ index_trans.explore_button }}</a></p>
+
+<h2>{{ index_trans.training_section.title }}</h2>
+
+{{ index_trans.training_section.text }}
+
+<p class="center-align"><a class="button" href="{{ 'training' | relative_url  }}">{{ index_trans.training_section.button }}</a><p>
 
 <script>
     let creations = [
@@ -66,7 +71,7 @@ sitemap:
             {
                 image: "{{ creation.main_image | relative_url }}",
                 name: "{{ creation.name }}",
-                url: "{{ 'creations/' | append: creation.url_tag | localized_url }}"
+                url: "{{ 'creations/' | append: creation.url_tag | relative_url | localized_url }}"
             }{% unless forloop.last %},{% endunless %}
         {% endfor %}
     ];

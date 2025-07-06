@@ -126,8 +126,25 @@
     </div>
 </main>
 
-<footer>
+{% capture translation_key %}translation_{{ site.active_lang }}{% endcapture %}
+{% assign footer_trans = site.data[translation_key].footer %}
 
+<footer>
+    <div id="footer-wrap">
+        <div>
+            <a href="{{ 'legals' | relative_url}}">{{ footer_trans.legals }}</a>
+        </div>
+        <div id="footer-address">
+            <span>Zamenhofstraat 106D</span>
+            <span>1022 AG Amsterdam</span>
+            <span>Nederland</span>
+        </div>
+        <div id="footer-admin-wrap">
+            <span class="footer-admin-header"><strong>{{ footer_trans.admin.iban }}</strong></span><span>&mdash;</span><span>NL85 ASNB 8851 7506 37</span>
+            <span class="footer-admin-header"><strong>{{ footer_trans.admin.registration }}</strong></span><span>&mdash;</span><span>96832606</span>
+            <span class="footer-admin-header"><strong>{{ footer_trans.admin.vat_number }}</strong></span><span>&mdash;</span><span>NL005235697B42</span>
+        </div>
+    </div>
 </footer>
 
 </body>
