@@ -20,7 +20,7 @@ sitemap:
 
 {{ index_trans.welcome }}
 
-<p class="center-align"><a class="button" href="{{ 'your-project' | relative_url  }}">{{ index_trans.project_link }}</a></p>
+<p class="center-align"><a class="button navigation-button" href="{{ 'your-project' | relative_url  }}">{{ index_trans.project_link }}</a></p>
 
 <h2>{{ index_trans.creations_section.title }}</h2>
 
@@ -44,7 +44,7 @@ sitemap:
       </a>
         
       <div id="index-creation-gallery-caption">
-        <a class="creation-gallery-link" href="">
+        <a class="creation-gallery-link navigation-button" href="">
           {{ main_images[0].name }}
         </a>
       </div>
@@ -57,13 +57,13 @@ sitemap:
   
 </div>
 
-<p class="center-align" style="margin-top: 20px;"><a class="button" href="{{ 'creations' | relative_url  }}">{{ index_trans.explore_button }}</a></p>
+<p class="center-align" style="margin-top: 20px;"><a class="button navigation-button" href="{{ 'creations' | relative_url  }}">{{ index_trans.explore_button }}</a></p>
 
 <h2>{{ index_trans.training_section.title }}</h2>
 
 {{ index_trans.training_section.text }}
 
-<p class="center-align"><a class="button" href="{{ 'training' | relative_url  }}">{{ index_trans.training_section.button }}</a><p>
+<p class="center-align"><a class="button navigation-button" href="{{ 'training' | relative_url  }}">{{ index_trans.training_section.button }}</a><p>
 
 <script>
     let creations = [

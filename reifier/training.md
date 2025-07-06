@@ -21,7 +21,7 @@ sitemap:
         <div class="creation-image-wrap">
           <img src="{{ workshop.main_image | relative_url }}" alt="Image of the {{ workshop.name }} creation" class="creation-image">
         </div>
-        <h3 class="creation-name">{{ workshop.name }}</h3>
+        <h3 class="creation-name navigation-button">{{ workshop.name }}</h3>
       </a>
     </div>
   {% endfor %}
@@ -36,5 +36,5 @@ sitemap:
 {{ training_trans.booking.description | markdown }}
 
 <p class="center-align">
-<a href="{{ 'contact' | relative_url  }}" class="button">{{ training_trans.contact_button }}</a>
+<a href="{{ 'contact' | relative_url  }}" class="button navigation-button">{{ training_trans.contact_button }}</a>
 </p>

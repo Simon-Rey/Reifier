@@ -61,8 +61,7 @@ index:
     
     Op zoek naar een uniek meubelstuk dat perfect in jouw huis past?
 
-  project_link: Laten we jouw project samen maken.
-
+  project_link: Laten we jouw project samen maken
 
   creations_section:
     title: Ontdek de realisaties van Réifier
@@ -235,3 +234,48 @@ training:
       als je interesse hebt.
 
   contact_button: Contact
+
+legals:
+  title: Juridische informatie & Intellectueel eigendom
+
+  company_information:
+    title: Bedrijfsinformatie
+    name: Bedrijfsnaam
+    address: Geregistreerd adres
+    registration_number: Kamer van Koophandel (KvK) nummer
+    vat_number: BTW-nummer
+    email: E-mail
+    phone: Telefoon
+
+  intellectual_property:
+    title: Intellectuele eigendomsrechten
+    text: |
+      Alle inhoud op deze website, waaronder maar niet beperkt tot teksten, afbeeldingen, ontwerpen, logo's, foto's, video's,
+      tekeningen, grafieken en productomschrijvingen, is het exclusieve eigendom van Reifier, tenzij anders vermeld.
+      
+      Deze inhoud is beschermd onder Nederlandse en internationale auteursrechten en wetten inzake intellectueel eigendom.
+
+  restriction_on_use:
+    title: Beperkingen op gebruik
+    text: |
+      Het kopiëren, reproduceren, verspreiden of aanpassen van enige inhoud van deze website zonder voorafgaande schriftelijke toestemming is verboden.
+      
+      Commercieel gebruik van onze ontwerpen, foto's of productconcepten is strikt verboden.
+      
+      Het is niet toegestaan om copyright-, handelsmerk- of eigendomsvermeldingen te verwijderen of aan te passen.
+      
+      Ongeoorloofd gebruik kan leiden tot juridische stappen volgens de toepasselijke wetgeving.
+
+  external_links:
+    title: Externe links
+    text: Deze website kan links bevatten naar websites van derden. Reifier is niet verantwoordelijk voor de inhoud
+      of werkwijze van deze externe websites en verstrekt deze links uitsluitend ter informatie.
+
+  liability:
+    title: Aansprakelijkheidsverklaring
+    text: Hoewel wij ons best doen om de informatie op deze website actueel en correct te houden, geven wij geen garanties
+      over de volledigheid of betrouwbaarheid ervan. Wij behouden ons het recht voor om de inhoud op elk moment zonder voorafgaande kennisgeving te wijzigen.
+
+  contact:
+    title: Contact
+    text: Voor toestemmingsverzoeken of juridische vragen kunt u contact met ons opnemen via

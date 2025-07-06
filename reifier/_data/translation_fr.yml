@@ -64,7 +64,7 @@ index:
     
     Vous cherchez un meuble unique parfaitement adaptée à votre intérieur ?
 
-  project_link: Réalisons ensemble votre project.
+  project_link: Réalisons ensemble votre project
 
   creations_section:
     title: Découvrez les créations de Réifier
@@ -238,3 +238,48 @@ training:
       merci de nous contacter.
 
   contact_button: Contact
+
+legals:
+  title: Mentions légales & Propriété intellectuelle
+
+  company_information:
+    title: Informations sur l'entreprise
+    name: Nom de l'entreprise
+    address: Adresse enregistrée
+    registration_number: Numéro de la Chambre de commerce (KvK)
+    vat_number: Numéro de TVA (BTW)
+    email: Email
+    phone: Téléphone
+
+  intellectual_property:
+    title: Droits de propriété intellectuelle
+    text: |
+      Tout le contenu de ce site web, y compris mais sans s'y limiter : textes, images, designs, logos, photographies, vidéos,
+      dessins, graphiques et descriptions de produits, est la propriété exclusive de Reifier, sauf indication contraire.
+      
+      Ce contenu est protégé par les lois néerlandaises et internationales relatives aux droits d'auteur et à la propriété intellectuelle.
+
+  restriction_on_use:
+    title: Restrictions d'utilisation
+    text: |
+      La copie, la reproduction, la distribution ou la modification de tout contenu de ce site web sans autorisation écrite préalable est interdite.
+      
+      L'utilisation commerciale de nos designs, photographies ou concepts de produits est strictement interdite.
+      
+      Vous ne pouvez pas supprimer ou modifier les mentions de droits d'auteur, de marques ou d'autres avis de propriété.
+      
+      Toute utilisation non autorisée peut entraîner des poursuites judiciaires conformément aux lois en vigueur.
+
+  external_links:
+    title: Liens externes
+    text: Ce site peut contenir des liens vers des sites tiers. Reifier n'est pas responsable du contenu
+      ou des pratiques de ces sites externes et fournit ces liens à titre informatif uniquement.
+
+  liability:
+    title: Clause de non-responsabilité
+    text: Bien que nous nous efforcions de garantir l'exactitude et la mise à jour des informations figurant sur ce site,
+      nous ne garantissons ni leur exhaustivité ni leur fiabilité. Le contenu peut être modifié à tout moment sans préavis.
+
+  contact:
+    title: Contact
+    text: Pour toute demande d'autorisation ou question légale, veuillez nous contacter à l'adresse suivante
