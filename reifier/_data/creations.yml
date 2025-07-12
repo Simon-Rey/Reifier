@@ -143,3 +143,29 @@
       Een handgemaakt, omkeerbaar speelbord dat schaken, dammen en backgammon combineert. Aan de ene kant speel je schaak of dam.
       Draai de twee helften om en leg ze naast elkaar om een prachtig backgammonbord te onthullen. Een slimme mix van stijl
       en spelplezier voor je woonkamer.
+
+- name: "Dissymmetralised Beds"
+  signature: false
+  url_tag: dissymmetralised_beds
+  main_image: assets/photo/creation/dissymmetralised_beds/dissymmetralised_beds_2.webp
+  images:
+    - assets/photo/creation/dissymmetralised_beds/dissymmetralised_beds_2.webp
+    - assets/photo/creation/dissymmetralised_beds/dissymmetralised_beds_7.webp
+    - assets/photo/creation/dissymmetralised_beds/dissymmetralised_beds_8.webp
+    - assets/photo/creation/dissymmetralised_beds/dissymmetralised_beds_1.webp
+    - assets/photo/creation/dissymmetralised_beds/dissymmetralised_beds_6.webp
+    - assets/photo/creation/dissymmetralised_beds/dissymmetralised_beds_5.webp
+    - assets/photo/creation/dissymmetralised_beds/dissymmetralised_beds_4.webp
+    - assets/photo/creation/dissymmetralised_beds/dissymmetralised_beds_3.webp
+  description:
+    en: >
+      This bunk bed was reworked to fit neatly under a sloped ceiling, breaking its original symmetry. Built-in storage 
+      compartments double as practical bedside tables.
+
+    fr: >
+      Ce lit superposé a été repensé pour s'adapter parfaitement sous un plafond en pente, rompant avec sa symétrie 
+      initiale. Des compartiments de rangement intégrés font également office de tables de chevet pratiques.
+
+    nl: >
+      Dit stapelbed werd aangepast om netjes onder een schuin plafond te passen, waarbij de oorspronkelijke symmetrie 
+      werd doorbroken. Ingebouwde opbergvakken doen ook dienst als praktische nachttafels.
