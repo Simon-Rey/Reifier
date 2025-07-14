@@ -700,33 +700,9 @@ Creations Page
 
 .creations-container {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
     gap: 20px;
     padding: 20px;
-}
-
-@media screen and (max-width: 1200px) {
-    .creations-container {
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    }
-}
-
-@media screen and (max-width: 800px) {
-    .creations-container {
-    grid-template-columns: 1fr 1fr 1fr;
-    }
-}
-
-@media screen and (max-width: 550px) {
-    .creations-container {
-    grid-template-columns: 1fr 1fr;
-    }
-}
-
-@media screen and (min-width: 2000px) {
-    .creations-container {
-        grid-template-columns: 1fr 1fr 1fr 1fr;
-    }
 }
 
 .creation-card {
