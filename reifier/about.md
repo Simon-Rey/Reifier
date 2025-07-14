@@ -16,7 +16,11 @@ sitemap:
 <div id="work-ethic-wrap" class="about-block-wrap">
 
 <div>
-<img src="{{ '/assets/photo/creation/kubus/kubus1.webp' | relative_url }}">
+<img 
+  {% include img-responsive-content.html name="0A3134E8-FE95-465C-BCBF-B7CD97F3B435" %}
+  alt="Final state of a creation of Reifier, furniture maker in Amsterdam"
+  sizes="(max-width: 1200px) 1vw, 22vw"
+>
 </div>
 
 <div markdown="1">
@@ -40,7 +44,11 @@ sitemap:
 </div>
 
 <div>
-<img src="{{ '/assets/photo/portrait/portrait_5.webp' | relative_url }}">
+<img
+  {% include img-responsive-content.html name="5954864B-A032-460F-9404-446C17B33B24" %}
+  alt="Portrait of Simon Rey, owner of Reifier, Furniture maker in Amsterdam"
+  sizes="(max-width: 1200px) 100vw, 27vw"
+>
 </div>
 
 </div>

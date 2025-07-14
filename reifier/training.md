@@ -19,7 +19,12 @@ sitemap:
     <div class="creation-card">
       <a href="{{ 'workshops/' | append: workshop.url_tag | relative_url }}">
         <div class="creation-image-wrap">
-          <img src="{{ workshop.main_image | relative_url }}" alt="Image of the {{ workshop.name }} creation" class="creation-image">
+            <img
+              {% include img-responsive-content.html name=workshop.main_image default_size="400" %}
+              sizes="(max-width: 600px) 80vw, (max-width: 900px) 40vw, 250px"
+              alt="Image of the {{ creation.name }} training from Reifier, furniture maker in Amsterdam."
+              class="creation-image"
+            >
         </div>
         <h3 class="creation-name navigation-button">{{ workshop.name }}</h3>
       </a>

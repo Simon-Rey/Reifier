@@ -3,24 +3,26 @@
         <button class="creation-gallery-arrow left" onclick="prevImage()">&#10094;</button>
         <div class="creation-gallery-thumbnails">
             {% for image in include.images %}
-                <img src="{{ image | relative_url }}"
+                <img
+                    {% include img-responsive-content.html name=image alt="Image of a woodworking creation from Reifier, furniture maker in Amsterdam." %}
                      class="creation-gallery-thumbnail {% if forloop.first %}active{% endif %}"
-                     onclick="setActiveImage('{{ image | relative_url }}', {{ forloop.index0 }})"
-                     data-index="{{ forloop.index0 }}">
+                     onclick="setActiveImage('{{ '/assets/photo/1200/' | append: image | append: '_1200.webp' | relative_url }}', {{ forloop.index0 }})"
+                     data-index="{{ forloop.index0 }}"
+                >
             {% endfor %}
         </div>
         <button class="creation-gallery-arrow right" onclick="nextImage()">&#10095;</button>
     </div>
 
     <div class="creation-gallery-display">
-        <img id="creation-gallery-active-image" src="{{ include.images[0] | relative_url }}" alt="Active Image">
+        <img id="creation-gallery-active-image" src="{{ '/assets/photo/1200/' | append: include.images[0] | append: '_1200.webp' | relative_url }}" alt="Active Image">
     </div>
 </div>
 
 <script>
     let images = [
         {% for image in include.images %}
-            "{{ image | relative_url }}"{% unless forloop.last %},{% endunless %}
+            "{{ '/assets/photo/1200/' | append: image | append: '_1200.webp' | relative_url }}"{% unless forloop.last %},{% endunless %}
         {% endfor %}
     ];
     let currentIndex = 0;

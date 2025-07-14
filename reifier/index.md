@@ -69,7 +69,7 @@ sitemap:
     let creations = [
         {% for creation in site.data.creations %}
             {
-                image: "{{ creation.main_image | relative_url }}",
+                image: "{{ '/assets/photo/1200/' | append: creation.main_image | append: '_1200.webp' | relative_url }}",
                 name: "{{ creation.name }}",
                 url: "{{ 'creations/' | append: creation.url_tag | relative_url | localized_url }}"
             }{% unless forloop.last %},{% endunless %}

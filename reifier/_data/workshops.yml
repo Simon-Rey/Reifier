@@ -1,15 +1,12 @@
 - name: Bird House
   url_tag: birdhouse
-  main_image: /assets/photo/workshop/birdhouse/birdhouse_8.jpg
+  main_image: 1E60F6CC-269F-4985-BCA7-37534C680FCC
   images:
-    - /assets/photo/workshop/birdhouse/birdhouse_1.jpg
-    - /assets/photo/workshop/birdhouse/birdhouse_2.jpg
-    - /assets/photo/workshop/birdhouse/birdhouse_3.jpg
-    - /assets/photo/workshop/birdhouse/birdhouse_4.jpg
-    - /assets/photo/workshop/birdhouse/birdhouse_5.jpg
-    - /assets/photo/workshop/birdhouse/birdhouse_6.jpg
-    - /assets/photo/workshop/birdhouse/birdhouse_7.jpg
-    - /assets/photo/workshop/birdhouse/birdhouse_8.jpg
+    - DC156429-AF3F-4BDA-AEF8-BD230BAD9D67
+    - B7FF703F-8F61-4545-A876-1A6557423A04
+    - 6FAB833B-5B7F-4AAA-AE9A-AB88F0859087
+    - 9EA38A40-20DF-49D6-9A42-F8A0A44C67C6
+    - 1E60F6CC-269F-4985-BCA7-37534C680FCC
   intro:
     en: >
       A hands-on introduction to woodworking. Build your own birdhouse while learning the fundamentals of working with 

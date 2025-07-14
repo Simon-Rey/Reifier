@@ -1,0 +1,9 @@
+{% assign size = include.default_size | default: "1600" %}src="{{ '/assets/photo/' | append: size | append: '/' | append: include.name | append: '_' | append: size | append: '.webp' | relative_url }}"
+srcset="
+{{ '/assets/photo/400/' | append: include.name | append: '_400.webp' | relative_url }} 400w,
+{{ '/assets/photo/800/' | append: include.name | append: '_800.webp' | relative_url }} 800w,
+{{ '/assets/photo/1200/' | append: include.name | append: '_1200.webp' | relative_url }} 1200w,
+{{ '/assets/photo/1600/' | append: include.name | append: '_1600.webp' | relative_url }} 1600w,
+{{ '/assets/photo/2000/' | append: include.name | append: '_2000.webp' | relative_url }} 2000w"
+loading="lazy"
+decoding="async"

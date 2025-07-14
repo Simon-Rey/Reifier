@@ -1,15 +1,15 @@
 - name: Kubus
   signature: true
   url_tag: kubus
-  main_image: assets/photo/creation/kubus/kubus2.webp
+  main_image: 4A58C6BC-BA3A-46CF-A826-5BF162559DF2
   images:
-    - assets/photo/creation/kubus/kubus1.webp
-    - assets/photo/creation/kubus/kubus2.webp
-    - assets/photo/creation/kubus/kubus3.webp
-    - assets/photo/creation/kubus/kubus4.webp
-    - assets/photo/creation/kubus/kubus5.webp
-    - assets/photo/creation/kubus/kubus6.webp
-    - assets/photo/creation/kubus/kubus7.webp
+    - 4A58C6BC-BA3A-46CF-A826-5BF162559DF2
+    - 0A3134E8-FE95-465C-BCBF-B7CD97F3B435
+    - EFE05106-DF72-416B-AF64-5268E5FDF686
+    - 96AEF78C-A767-488D-A866-B67DBE99B728
+    - 957BF5DA-954E-482B-A6E4-CAFE70B5ABBA
+    - C5FFC66F-1672-4730-8D37-1E6F916658A2
+    - A5AAA5E7-11EA-4B39-925F-94E952294CC4
   description:
     en: >
       *Kubus* is a monolithic cube, precisely crafted, designed to serve as a side table, nightstand, or adaptable furniture piece.
@@ -52,13 +52,12 @@
 - name: GezelLit
   signature: true
   url_tag: gezellit
-  main_image: assets/photo/creation/gezellit/gezellit3.webp
+  main_image: 2172AF75-61C9-499B-96A0-4C33C5BDF1D8
   images:
-    - assets/photo/creation/gezellit/gezellit1.webp
-    - assets/photo/creation/gezellit/gezellit2.webp
-    - assets/photo/creation/gezellit/gezellit3.webp
-    - assets/photo/creation/gezellit/gezellit4.webp
-    - assets/photo/creation/gezellit/gezellit5.webp
+    - 2172AF75-61C9-499B-96A0-4C33C5BDF1D8
+    - AA74857F-99EC-4461-ACD5-E3E0C6147173
+    - DBE0654D-BBA9-4023-9E43-FD674B2F3D3B
+    - 8CCEF9A8-F93F-4BAB-B1DE-9249D8254F9E
   description:
     en: >
       Smart, Space-Saving and Comfort! Designed for modern living, **GezelLit** transforms effortlessly from a cozy single
@@ -96,13 +95,13 @@
 - name: Beastmaster Shelf
   signature: false
   url_tag: beastmaster_shelf
-  main_image: assets/photo/creation/beastmaster_shelf/beastmaster_shelf1.webp
+  main_image: DD5B4686-8161-44E7-AB02-6EB49A2F05F3
   images:
-    - assets/photo/creation/beastmaster_shelf/beastmaster_shelf1.webp
-    - assets/photo/creation/beastmaster_shelf/beastmaster_shelf2.webp
-    - assets/photo/creation/beastmaster_shelf/beastmaster_shelf3.webp
-    - assets/photo/creation/beastmaster_shelf/beastmaster_shelf4.webp
-    - assets/photo/creation/beastmaster_shelf/beastmaster_shelf5.webp
+    - DD5B4686-8161-44E7-AB02-6EB49A2F05F3
+    - E3433C5D-9800-431B-B2F4-5A1AD0BC842E
+    - D563EFAD-3D54-4995-BCD3-E392DAC5985E
+    - 44D8F45C-5538-41E0-82FB-9BC19C78905B
+    - F82CAAD0-A180-4147-8D61-26B5AB8593E3
   description:
     en: >
       A stylish door shelf that secretly houses a Beastmaster for climbing training. From the living room, it looks
@@ -120,14 +119,13 @@
 - name: "Triform Board"
   signature: false
   url_tag: triform_board
-  main_image: assets/photo/creation/multichess/multichess1.webp
+  main_image: 10142BD9-BFE3-4AE3-A071-171EA72BDE47
   images:
-    - assets/photo/creation/multichess/multichess1.webp
-    - assets/photo/creation/multichess/multichess2.webp
-    - assets/photo/creation/multichess/multichess3.webp
-    - assets/photo/creation/multichess/multichess4.webp
-    - assets/photo/creation/multichess/multichess5.webp
-    - assets/photo/creation/multichess/multichess6.webp
+    - 10142BD9-BFE3-4AE3-A071-171EA72BDE47
+    - 1C1CF409-FAE3-4B38-B0F7-746E52898CAB
+    - D7111D87-9465-4B0B-A37C-29FCBDCD44AD
+    - 8792B390-2BBE-41F5-854A-136C994C7295
+    - 82E8EBB3-8811-4A50-B680-7D76F0994538
   description:
     en: >
       A handcrafted, reversible game board set combining chess, checkers, and backgammon. On one side, play chess or checkers.
@@ -147,16 +145,16 @@
 - name: "Dissymmetralised Beds"
   signature: false
   url_tag: dissymmetralised_beds
-  main_image: assets/photo/creation/dissymmetralised_beds/dissymmetralised_beds_2.webp
+  main_image: 948D8F9B-B5AB-47FE-B720-952531D4FFCC
   images:
-    - assets/photo/creation/dissymmetralised_beds/dissymmetralised_beds_2.webp
-    - assets/photo/creation/dissymmetralised_beds/dissymmetralised_beds_7.webp
-    - assets/photo/creation/dissymmetralised_beds/dissymmetralised_beds_8.webp
-    - assets/photo/creation/dissymmetralised_beds/dissymmetralised_beds_1.webp
-    - assets/photo/creation/dissymmetralised_beds/dissymmetralised_beds_6.webp
-    - assets/photo/creation/dissymmetralised_beds/dissymmetralised_beds_5.webp
-    - assets/photo/creation/dissymmetralised_beds/dissymmetralised_beds_4.webp
-    - assets/photo/creation/dissymmetralised_beds/dissymmetralised_beds_3.webp
+    - 948D8F9B-B5AB-47FE-B720-952531D4FFCC
+    - D7486CB2-E052-4C52-A440-276694038046
+    - 0C941863-D8CF-4E84-B2A9-9BAFDE3B33F0
+    - 498AEC8C-FC4A-40E0-ACC2-F3F48CF74573
+    - 5B4110F5-A015-480D-886C-326E491B4969
+    - D12A5FD6-356F-42EB-A4C3-F5D18E6D949C
+    - 86E380DD-6C5F-4984-A331-D2885E1DAE2D
+    - CD8EE376-0005-431D-AE10-88A0B5D2CFD4
   description:
     en: >
       This bunk bed was reworked to fit neatly under a sloped ceiling, breaking its original symmetry. Built-in storage 
