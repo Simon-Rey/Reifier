@@ -21,7 +21,7 @@ sitemap:
         <div class="creation-image-wrap">
             <img
               {% include img-responsive-content.html name=workshop.main_image default_size="400" %}
-              sizes="(max-width: 600px) 80vw, (max-width: 900px) 40vw, 250px"
+              sizes="(max-width: 550px) 50vw, (max-width: 800px) 33vw, (max-width: 1200px) 25vw, (min-width: 2000px) 15vw, 20vw"
               alt="Image of the {{ creation.name }} training from Reifier, furniture maker in Amsterdam."
               class="creation-image"
             >
