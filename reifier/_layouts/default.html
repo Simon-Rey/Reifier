@@ -10,11 +10,17 @@
     {% else %}
         <title>Réifier Furniture Maker</title>
     {% endif %}
-    {% assign page_description = site.data[translation_key].page_description[page.title_id] %}
+
+    {% assign fallback_description = site.data[translation_key].page_description[page.title_id] %}
+    {% assign page_description = page.page_description | default: fallback_description %}
+    {% if page.creation_object %}
+         {% assign page_description = page.creation_object.html_description[site.active_lang] %}
+    {% endif %}
+
     {% if page_description %}
-        <meta name="description" content="{{ page_description }}">
+      <meta name="description" content="{{ page_description }}">
     {% else %}
-        <meta name="description" content="Custom handmade furniture crafted in Amsterdam by Réifier.">
+      <meta name="description" content="Custom handmade furniture crafted in Amsterdam by Réifier.">
     {% endif %}
 
     <meta name="viewport" content="width=device-width, initial-scale=1.0">

@@ -10,44 +10,48 @@
     - 957BF5DA-954E-482B-A6E4-CAFE70B5ABBA
     - C5FFC66F-1672-4730-8D37-1E6F916658A2
     - A5AAA5E7-11EA-4B39-925F-94E952294CC4
-  description:
+  html_description:
     en: >
+      Kubus is a monolithic cube, meticulously crafted to function as a side table, nightstand, or versatile accent piece.
+      Designed by Réifier, custom furniture maker based in Amsterdam.
+    fr: > 
+      Kubus est un cube monolithique, soigneusement fabriqué pour servir de table d’appoint, de table de chevet ou de
+      pièce polyvalente. Une création de Réifier, fabricant de meubles sur mesure à Amsterdam.
+    nl: > 
+      Kubus is een monolithische kubus, met zorg vervaardigd om te dienen als bijzettafel, nachtkastje of veelzijdig
+      meubelstuk. Een ontwerp van Réifier, maker van maatwerkmeubels in Amsterdam.
+  description:
+    en: |
       *Kubus* is a monolithic cube, precisely crafted, designed to serve as a side table, nightstand, or adaptable furniture piece.
       At first glance, it appears as a seamless, solid block; an exercise in pure geometric form. 
       Yet, hidden within its minimalist design lies a carefully engineered storage system.
-
 
       The top panel slides open to reveal a discreet compartment, perfect for storing your tea set for instance.
       Meanwhile, the bottom half houses a seamlessly integrated drawer, designed to maintain the cube's uninterrupted 
       appearance when closed.
 
-
       Kubus is an exploration of elegance through restraint—where utility is embedded within the form itself, without 
       disrupting its purity.
-    nl: >
+    nl: |
       *Kubus* is een monolithische kubus, nauwkeurig vervaardigd en ontworpen als bijzettafel, nachtkastje of veelzijdig meubelstuk.
       Op het eerste gezicht lijkt het een naadloos, solide blok—een oefening in pure geometrische vorm.
       Maar achter dit minimalistische ontwerp schuilt een doordacht opbergsysteem.
   
-  
       Het bovenpaneel schuift open en onthult een discreet compartiment, ideaal om bijvoorbeeld een theeservies in op te bergen.
       Ondertussen herbergt de onderste helft een naadloos geïntegreerde lade, ontworpen om de ononderbroken uitstraling van de kubus te behouden wanneer deze gesloten is.
   
-  
       Kubus is een verkenning van elegantie door eenvoud—waar functionaliteit subtiel is ingebed in de vorm zelf, zonder de pure esthetiek te verstoren.
 
-    fr: >
+    fr: |
       *Kubus* est un cube monolithique, conçu avec précision, qui peut servir de table d'appoint, de table de chevet ou de meuble polyvalent.
       À première vue, il apparaît comme un bloc solide et homogène, une exploration de la forme géométrique pure.
       Pourtant, derrière ce design minimaliste se cache un système de rangement ingénieusement intégré.
   
-  
       Le panneau supérieur coulisse pour révéler un compartiment discret, parfait pour ranger, par exemple, un service à thé.
       Pendant ce temps, la moitié inférieure abrite un tiroir parfaitement intégré, conçu pour préserver l'apparence épurée du cube lorsqu'il est fermé.
   
-  
       Kubus est une recherche d'élégance par la retenue—où la fonctionnalité est subtilement intégrée à la forme elle-même, sans jamais en perturber la pureté.
-
+      
 
 - name: GezelLit
   signature: true
@@ -58,35 +62,45 @@
     - AA74857F-99EC-4461-ACD5-E3E0C6147173
     - DBE0654D-BBA9-4023-9E43-FD674B2F3D3B
     - 8CCEF9A8-F93F-4BAB-B1DE-9249D8254F9E
-  description:
+  html_description:
     en: >
+      GezelLit is a smart, space-saving bed that transforms from a cozy single into a spacious double. Designed for small
+      homes, guest rooms, and multifunctional spaces, it offers generous storage and elegant design — the perfect balance
+      of practicality and gezellig comfort. A creation of Réifier, custom furniture studio based in Amsterdam.
+    fr: >
+      GezelLit est un lit intelligent et gain de place qui passe d’un lit simple confortable à un lit double spacieux.
+      Idéal pour les petits espaces, les chambres d’amis ou multifonctionnelles, il allie élégance, praticité et chaleur.
+      Une création de Réifier, atelier de mobilier sur mesure à Amsterdam.
+    nl: >
+      GezelLit is een slim, ruimtebesparend bed dat moeiteloos verandert van een knusse eenpersoons naar een ruime 
+      tweepersoons. Ideaal voor kleine woningen, logeerkamers of multifunctionele ruimtes — met veel opbergruimte en 
+      een stijlvol ontwerp. Een ontwerp van Réifier, maker van maatwerkmeubels in Amsterdam.
+  description:
+    en: |
       Smart, Space-Saving and Comfort! Designed for modern living, **GezelLit** transforms effortlessly from a cozy single
       to a spacious double, making it perfect for small homes, guest rooms, or multifunctional spaces.
       Whether you're hosting guests or simply stretching out for a restful night, this bed adapts to your needs while
       maintaining a sleek, stylish design.
 
-
       With ample storage space underneath, you can keep blankets, books, or seasonal items neatly tucked away, 
       maximizing every inch of your home. Functional, elegant, and built for comfort, **GezelLit** ensures that small
       spaces never compromise on warmth and togetherness. This is the perfect gezellig lit!
     
-    fr: >
+    fr: |
       Intelligent, gain de place et confortable ! Conçu pour la vie moderne, **GezelLit** se transforme sans effort
       d'un lit simple et confortable en un lit double spacieux, idéal pour les petites maisons, les chambres d'amis ou
       les espaces multifonctionnels. Que vous receviez des invités ou que vous profitiez d'une nuit reposante, ce lit
       s'adapte à vos besoins tout en conservant un design élégant et raffiné.  
       
-      
       Avec un espace de rangement généreux en dessous, vous pouvez stocker couvertures, livres ou objets saisonniers,
       optimisant ainsi chaque centimètre de votre intérieur. Fonctionnel, élégant et conçu pour le confort,
       **GezelLit** garantit que les petits espaces restent chaleureux et conviviaux. C'est le lit gezellige par excellence !  
 
-    nl: >
+    nl: |
       Slim, ruimtebesparend en comfortabel! Ontworpen voor het moderne leven, verandert **GezelLit** moeiteloos van 
       een knusse eenpersoonsbed in een ruim tweepersoonsbed, perfect voor kleine woningen, logeerkamers of 
       multifunctionele ruimtes. Of je nu gasten ontvangt of gewoon wilt ontspannen voor een goede nachtrust, dit
       bed past zich aan jouw behoeften aan en behoudt tegelijkertijd een strak en stijlvol design.  
-
 
       Met veel opbergruimte eronder, kun je dekens, boeken of seizoensgebonden spullen netjes opbergen, waardoor je elke
       centimeter van je huis optimaal benut. Functioneel, elegant en gemaakt voor comfort, zorgt **GezelLit** ervoor dat
@@ -102,17 +116,28 @@
     - D563EFAD-3D54-4995-BCD3-E392DAC5985E
     - 44D8F45C-5538-41E0-82FB-9BC19C78905B
     - F82CAAD0-A180-4147-8D61-26B5AB8593E3
-  description:
+  html_description:
     en: >
+      Beastmaster Shelf is a stylish door-mounted unit that discreetly hides a climbing trainer. From the living room,
+      it’s a sleek shelf; from the kitchen, a personal training space. A clever fusion of design and play.
+      Designed and built by Réifier, custom furniture makers in Amsterdam.
+    fr: > 
+      Beastmaster Shelf est une étagère de porte élégante qui dissimule un entraîneur d’escalade. Dans le salon, une
+      étagère design ; dans la cuisine, votre espace d’entraînement personnel. Design malin et ludique. Conçu et réalisé
+      par Réifier, créateur de mobilier sur mesure à Amsterdam.
+    nl: >
+      Beastmaster Shelf is een stijlvolle deurplank die een klimtrainer slim verbergt. In de woonkamer lijkt het een 
+      strak rek, in de keuken is het je persoonlijke trainingsplek. Speels en slim ontworpen. Een creatie van Réifier,
+      maatwerk meubelstudio uit Amsterdam.
+  description:
+    en: |
       A stylish door shelf that secretly houses a Beastmaster for climbing training. From the living room, it looks
       like a sleek shelf; in the kitchen, it’s your personal climbing gym. Practical, playful, and perfectly disguised!
-
-    fr: >
+    fr: |
       Une étagère de porte élégante qui dissimule astucieusement un Beastmaster pour l'entraînement à l’escalade.
       Depuis le salon, elle ressemble à une étagère design ; dans la cuisine, c’est votre salle d’escalade personnelle.
       Pratique, ludique et parfaitement camouflée !
-
-    nl: >
+    nl: |
       Een stijlvolle deurplank die slim een Beastmaster verbergt voor klimtraining. Vanuit de woonkamer lijkt het een
       trakke plank; in de keuken is het jouw persoonlijke klimruimte. Praktisch, speels en perfect verstopt!
 
@@ -126,18 +151,31 @@
     - D7111D87-9465-4B0B-A37C-29FCBDCD44AD
     - 8792B390-2BBE-41F5-854A-136C994C7295
     - 82E8EBB3-8811-4A50-B680-7D76F0994538
-  description:
+  html_description:
     en: >
+      Triform Board is a handcrafted, reversible game set for chess, checkers, and backgammon. Elegant and functional,
+      it’s a playful centrepiece for any space — combining three classics into one beautiful object.
+      Handcrafted by Réifier, custom furniture makers in Amsterdam.
+    fr: >
+      Triform Board est un ensemble de jeux réversible fait main pour les échecs, les dames et le backgammon.
+      Élégant et pratique, il réunit trois classiques dans un seul objet raffiné et ludique. 
+      Fabriqué à la main par Réifier, créateur de meubles sur mesure à Amsterdam.
+    nl: >
+      Triform Board is een handgemaakt, omkeerbaar spelbord voor schaken, dammen en backgammon. Stijlvol en functioneel
+      — drie klassieke spellen samengebracht in één prachtig object. Gemaakt door Réifier, ambachtelijk meubelatelier
+      in Amsterdam.
+  description:
+    en: |
       A handcrafted, reversible game board set combining chess, checkers, and backgammon. On one side, play chess or checkers.
       Flip the two halves and place them side by side to reveal a striking backgammon board within. A clever fusion of elegance
       and entertainment for your living space.
 
-    fr: >
+    fr: |
       Un ensemble de plateaux de jeu réversibles fait main, réunissant échecs, dames et backgammon. D’un côté, jouez aux échecs
       ou aux dames. Retournez les deux moitiés et assemblez-les pour révéler un superbe plateau de backgammon. Une fusion
       ingénieuse d’élégance et de divertissement pour votre intérieur.
 
-    nl: >
+    nl: |
       Een handgemaakt, omkeerbaar speelbord dat schaken, dammen en backgammon combineert. Aan de ene kant speel je schaak of dam.
       Draai de twee helften om en leg ze naast elkaar om een prachtig backgammonbord te onthullen. Een slimme mix van stijl
       en spelplezier voor je woonkamer.
@@ -155,16 +193,26 @@
     - D12A5FD6-356F-42EB-A4C3-F5D18E6D949C
     - 86E380DD-6C5F-4984-A331-D2885E1DAE2D
     - CD8EE376-0005-431D-AE10-88A0B5D2CFD4
-  description:
+  html_description:
     en: >
+      Dissymmetralised Beds is a custom bunk bed reimagined to fit perfectly beneath a sloped ceiling. Its asymmetric 
+      design includes built-in bedside storage — functional, compact, and tailored to the space. A bespoke project by Réifier, handmade furniture studio in Amsterdam.
+    fr: >
+      Dissymmetralised Beds est un lit superposé sur mesure, repensé pour s’intégrer sous un plafond en pente.
+      Son asymétrie inclut des rangements intégrés — pratique, compact et fait sur mesure. Un projet personnalisé
+      signé Réifier, atelier de mobilier artisanal à Amsterdam.
+    nl: >
+      Dissymmetralised Beds is een op maat gemaakt stapelbed dat perfect onder een schuin plafond past.
+      Het asymmetrische ontwerp biedt ingebouwde opbergruimte — functioneel, compact en ruimtegericht.
+      Een ontwerp van Réifier, ambachtelijke meubelmakerij uit Amsterdam.
+  description:
+    en: |
       This bunk bed was reworked to fit neatly under a sloped ceiling, breaking its original symmetry. Built-in storage 
       compartments double as practical bedside tables.
-
-    fr: >
+    fr: |
       Ce lit superposé a été repensé pour s'adapter parfaitement sous un plafond en pente, rompant avec sa symétrie 
       initiale. Des compartiments de rangement intégrés font également office de tables de chevet pratiques.
-
-    nl: >
+    nl: |
       Dit stapelbed werd aangepast om netjes onder een schuin plafond te passen, waarbij de oorspronkelijke symmetrie 
       werd doorbroken. Ingebouwde opbergvakken doen ook dienst als praktische nachttafels.
 
@@ -178,12 +226,22 @@
     - 8934E0D6-97EF-4DA0-9963-5522AF2A759D
     - EF5DDEAA-5630-42C8-9D22-E4EC74D34626
     - 36245297-09FD-411A-853E-CEC95DA48C2D
-  description:
+  html_description:
     en: >
-      A bookshelf in the shape of an arch, wrapping around a desk. It adds storage while creating a clean, built-in look.
-
+      Arch Shelves is a custom-built bookshelf that curves around a desk, creating a sculptural form with integrated 
+      storage. A refined and functional centerpiece that defines the space it inhabits. Made by Réifier, custom
+      furniture studio based in Amsterdam.
     fr: >
-      Une bibliothèque en forme d’arche entourant un bureau. Elle offre du rangement tout en créant un aspect intégré et épuré.
-
+      Arch Shelves est une bibliothèque sur mesure en arc de cercle autour d’un bureau. 
+      Sculpturale et fonctionnelle, elle structure l’espace avec élégance et rangement intégré. Réalisée par 
+      Réifier, fabricant de meubles sur mesure à Amsterdam.
     nl: >
+      Arch Shelves is een op maat gemaakte boekenkast die rond een bureau buigt. Een sculpturaal middelpunt met 
+      geïntegreerde opbergruimte — verfijnd en functioneel. Gemaakt door Réifier, meubelstudio voor maatwerk in Amsterdam.
+  description:
+    en: |
+      A bookshelf in the shape of an arch, wrapping around a desk. It adds storage while creating a clean, built-in look.
+    fr: |
+      Une bibliothèque en forme d’arche entourant un bureau. Elle offre du rangement tout en créant un aspect intégré et épuré.
+    nl: |
       Een boekenkast in de vorm van een boog, rondom een bureau. Biedt opbergruimte en zorgt voor een strakke, ingebouwde uitstraling.

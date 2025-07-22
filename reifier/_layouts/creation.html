@@ -4,7 +4,7 @@ sitemap:
   priority: 1
 ---
 
-{% assign creation_object = site.data.creations | where: "name", page.creation_name | first %}
+{% assign creation_object = page.creation_object %}
 
 {% if creation_object %}
   <h1>{{ creation_object.name }}</h1>
