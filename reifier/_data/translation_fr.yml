@@ -184,21 +184,13 @@ your_project:
     button: Contactez-moi
 
 creations:
-  signature:
-    title: Créations Signature
-    description: >
-      Nos créations signature sont des designs exclusifs et originaux de Réifier, reflétant l'esthétique unique 
-      et le savoir-faire qui définissent notre travail.
+  title: Nos Créations
+  description: >
+    Chaque pièce présentée ici reflète la sensibilité unique de Réifier—qu’il s’agisse d’une commande sur mesure ou 
+    d’une création exclusive de notre studio. Ces œuvres offrent un aperçu de ce qui est possible. Laissez-vous inspirer.
 
-      Ces créations peuvent être reproduites sur mesure pour s'adapter à votre espace. Si l'une d'elles vous séduit, 
-      n'hésitez pas à me contacter—je serais ravi de lui donner vie pour vous !
-
-  bespoke:
-    title: Créations Sur-Mesure
-    description: >
-      Nos créations sur-mesure sont des pièces uniques, conçues pour répondre aux besoins et aux visions de chaque client.
-      Bien que ces créations ne soient pas destinées à être reproduites, elles offrent un aperçu des possibilités de design personnalisé.
-      Laissez-vous inspirer—et si vous avez une idée pour votre propre création unique, je suis là pour lui donner vie.
+    Si l’une d’elles vous touche, elle peut être reproduite ou adaptée sur mesure pour s’intégrer à votre espace.
+    Et si vous avez une idée bien à vous, je serais ravi de la concrétiser.
 
 training:
   workshops:
