@@ -6,7 +6,7 @@
                 <img
                     {% include img-responsive-content.html name=image alt="Image of a woodworking creation from Reifier, furniture maker in Amsterdam." %}
                      class="creation-gallery-thumbnail {% if forloop.first %}active{% endif %}"
-                     onclick="setActiveImage('{{ '/assets/photo/1200/' | append: image | append: '.webp' | relative_url }}', {{ forloop.index0 }})"
+                     onclick="setActiveImage({{ forloop.index0 }})"
                      data-index="{{ forloop.index0 }}"
                 >
             {% endfor %}
@@ -15,7 +15,9 @@
     </div>
 
     <div class="creation-gallery-display">
-        <img id="creation-gallery-active-image" src="{{ '/assets/photo/1200/' | append: include.images[0] | append: '.webp' | relative_url }}" alt="Active Image">
+        <a id="creation-gallery-active-image-link" href="{{ '/assets/photo/full/' | append: include.images[0] | append: '.webp' | relative_url }}" target="_blank">
+            <img id="creation-gallery-active-image" src="{{ '/assets/photo/1200/' | append: include.images[0] | append: '.webp' | relative_url }}" alt="Active Image">
+        </a>
     </div>
 </div>
 
@@ -25,10 +27,18 @@
             "{{ '/assets/photo/1200/' | append: image | append: '.webp' | relative_url }}"{% unless forloop.last %},{% endunless %}
         {% endfor %}
     ];
+    let imagesFull = [
+        {% for image in include.images %}
+            "{{ '/assets/photo/full/' | append: image | append: '.webp' | relative_url }}"{% unless forloop.last %},{% endunless %}
+        {% endfor %}
+    ];
     let currentIndex = 0;
+    let activeImg = document.getElementById("creation-gallery-active-image");
+    let activeImgLink = document.getElementById("creation-gallery-active-image-link");
 
-    function setActiveImage(imageSrc, index) {
-        document.getElementById("creation-gallery-active-image").src = imageSrc;
+    function setActiveImage(index) {
+        activeImg.src = images[index];
+        activeImgLink.href = imagesFull[index];
         currentIndex = index;
         document.querySelectorAll(".creation-gallery-thumbnail").forEach(img => img.classList.remove("active"));
         let activeThumb = document.querySelector(`.creation-gallery-thumbnail[data-index='${index}']`);
@@ -38,11 +48,11 @@
 
     function prevImage() {
         const newIndex = (currentIndex - 1 + images.length) % images.length;
-        setActiveImage(images[newIndex], newIndex);
+        setActiveImage(newIndex);
     }
 
     function nextImage() {
         const newIndex = (currentIndex + 1) % images.length;
-        setActiveImage(images[newIndex], newIndex);
+        setActiveImage(newIndex);
     }
 </script>
