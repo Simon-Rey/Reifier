@@ -1,9 +1,9 @@
 - name: Kubus
   signature: true
   url_tag: kubus
-  main_image: 4A58C6BC-BA3A-46CF-A826-5BF162559DF2
+  main_image: 790396D6-1FA9-450E-9719-3C62E11DD785
   images:
-    - 4A58C6BC-BA3A-46CF-A826-5BF162559DF2
+    - 790396D6-1FA9-450E-9719-3C62E11DD785
     - 0A3134E8-FE95-465C-BCBF-B7CD97F3B435
     - EFE05106-DF72-416B-AF64-5268E5FDF686
     - 96AEF78C-A767-488D-A866-B67DBE99B728
@@ -191,8 +191,8 @@
     - 498AEC8C-FC4A-40E0-ACC2-F3F48CF74573
     - 5B4110F5-A015-480D-886C-326E491B4969
     - D12A5FD6-356F-42EB-A4C3-F5D18E6D949C
-    - 86E380DD-6C5F-4984-A331-D2885E1DAE2D
-    - CD8EE376-0005-431D-AE10-88A0B5D2CFD4
+    - 22F2A3F8-580C-4B7E-B5E4-62C4D7669877
+    - 122B7C43-3531-4AC6-9FD4-DA473B01327C
   html_description:
     en: >
       Dissymmetralised Beds is a custom bunk bed reimagined to fit perfectly beneath a sloped ceiling. Its asymmetric 
@@ -245,3 +245,41 @@
       Une bibliothèque en forme d’arche entourant un bureau. Elle offre du rangement tout en créant un aspect intégré et épuré.
     nl: |
       Een boekenkast in de vorm van een boog, rondom een bureau. Biedt opbergruimte en zorgt voor een strakke, ingebouwde uitstraling.
+
+- name: "Partition Bed"
+  signature: false
+  url_tag: partition_bed
+  main_image: 00823999-EC85-4DEB-80AD-D9E82BB5C8B3
+  images:
+    - 00823999-EC85-4DEB-80AD-D9E82BB5C8B3
+    - 664B7430-E109-4A50-9E95-6A8BE9510E61
+    - 2417BC3D-BAFF-45F1-86CB-2DD73EBDBD13
+    - AC74A319-7E4B-4AC8-BDCB-B0B38CCC0112
+    - E67DA835-A72C-445F-BBE8-DF90222975EC
+    - FEF2861A-2A46-4266-9A14-CA772C5CF526
+    - 55D8D533-1633-473B-89AD-2E3DF99491B0
+    - 75D33455-D4FA-450A-AB0F-B2581B620C78
+  html_description:
+    en: >
+      The Partition Bed transforms a shared room into two personal spaces, giving each child privacy, playful connections, and bright study areas.
+
+    fr: >
+      Le Partition Bed transforme une chambre partagée en deux espaces personnels, offrant intimité, connexion ludique et espaces d’étude lumineux.
+
+    nl: >
+      Het Partition Bed verandert een gedeelde kamer in twee persoonlijke ruimtes, met privacy, speelse verbindingen en lichte studieplekken.
+  description:
+    en: |
+      The bunk bed transforms a shared room into two personal spaces, giving each child privacy while keeping them 
+      connected through playful window openings. Integrated panels provide separation, and built-in desks by the windows
+      create bright, practical study areas.
+
+    fr: |
+      Le lit superposé transforme une chambre partagée en deux espaces personnels, offrant à chaque enfant son intimité 
+      tout en les gardant connectés grâce à de ludiques ouvertures-fenêtres. Des panneaux intégrés assurent la séparation,
+      et des bureaux intégrés près des fenêtres offrent des espaces d’étude lumineux et pratiques.
+
+    nl: |
+      Het stapelbed verandert een gedeelde kamer in twee persoonlijke ruimtes, waardoor elk kind privacy heeft terwijl ze
+      toch verbonden blijven via speelse raamopeningen. Geïntegreerde panelen zorgen voor afscheiding, en ingebouwde 
+      bureaus bij de ramen creëren lichte, praktische studieplekken.
